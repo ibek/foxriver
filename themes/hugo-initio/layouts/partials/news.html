@@ -1,11 +1,21 @@
 <div class="row section featured topspace">
-    <h2 class="section-title"><span>Krátké zprávy</span></h2>
+    <h2 class="section-title"><span>Novinky</span></h2>
     <div class="row">
-        {{ range where .Data.Pages "Section" "new" }}
-            <div class="col-sm-6 col-md-4">
-                <h3 class="text-center">{{ .Title }}</h3>
-                <p>{{ .Content }}</p>
-            </div>
-        {{ end }}
+        <div class="container" id="result"></div>
     </div>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{ .Site.BaseURL }}js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="{{ .Site.BaseURL }}js/FacebookPageFeed.js"></script>
+    <script src="{{ .Site.BaseURL }}js/news.js"></script>
+    <script>
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/cs_CZ/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 </div> <!-- / section -->

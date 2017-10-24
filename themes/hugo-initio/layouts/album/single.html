@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+
+      <div class="fb-album-container"></div>
+
+      <script>window.jQuery || document.write('<script src="{{ .Site.BaseURL }}js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.fb.albumbrowser.js"></script>
+      <script type="text/javascript">
+          jQuery( document ).ready(function ($) {
+          
+            $(".fb-album-container").FacebookAlbumBrowser({
+                  account: "natgeo",
+                  accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
+                  onlyAlbum: "10150310813623951",
+                  showComments: false,
+                  commentsLimit:3,
+                  showAccountInfo: false,
+                  showImageCount: false,
+                  showImageText: true,
+                  shareButton: false,
+                  albumsPageSize: 10,
+                  photosPageSize: 10,
+                  lightbox: true,
+                  photosCheckbox: false,
+				          pluginImagesPath: "{{ .Site.BaseURL }}images/",
+                  likeButton: false,
+                  shareButton: false
+              });
+          });
+      </script>
+
+		</div>
+	</div>	<!-- /container -->
+
+</main>
+
+{{ partial "footer.html" . }}
