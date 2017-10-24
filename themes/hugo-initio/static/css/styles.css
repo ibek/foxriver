@@ -792,9 +792,13 @@ footer.entry-meta .meta-in {
 }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
-@media (min-width: 1200px) {
+.container {
+  max-width: 1500px;
+}
+
+@media (min-width: 1300px) {
   .container {
-    max-width: 1080px;
+    max-width: 1200px;
   }
 }
 /*********************************************************************

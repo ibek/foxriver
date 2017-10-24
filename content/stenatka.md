@@ -1,6 +1,6 @@
 +++
 menu = "main"
-title = "Vrh G"
+title = "Štěňátka"
 type = "album"
 +++
 
