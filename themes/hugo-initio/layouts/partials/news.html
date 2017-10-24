@@ -1,0 +1,11 @@
+<div class="row section featured topspace">
+    <h2 class="section-title"><span>Krátké zprávy</span></h2>
+    <div class="row">
+        {{ range where .Data.Pages "Section" "new" }}
+            <div class="col-sm-6 col-md-4">
+                <h3 class="text-center">{{ .Title }}</h3>
+                <p>{{ .Content }}</p>
+            </div>
+        {{ end }}
+    </div>
+</div> <!-- / section -->

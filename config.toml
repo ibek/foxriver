@@ -1,0 +1,35 @@
+baseURL = "http://foxriver.cz/"
+languageCode = "cs-cz"
+title = "Chovatelská stanice Fox River"
+theme = "hugo-initio"
+publishDir = "build"
+
+[params]
+    name = "Fox River"
+    description = "Chovatelská stanice"
+    email = "bekovajana@seznam.cz"
+    year = 2017
+    background = ""
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+
+    showSubheader = true
+    showNews = true
+    showRecentWorks = true
+    showDownload = true
+    showClients = true
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+    
+[[menu.main]]
+    name = "Chovné Fenky"
+    identifier = "chovne-fenky"
+    url = "/chovne-fenky/"
+    weight = 5
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
