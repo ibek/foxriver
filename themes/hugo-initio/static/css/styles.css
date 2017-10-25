@@ -820,3 +820,84 @@ footer.entry-meta .meta-in {
    }
 }
 
+.icon {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+.exh {
+  margin-top: 20px;
+}
+
+.subtitle div, .subtitle h5 {
+  display: inline;
+  margin: 10px;
+}
+
+.appr {
+  margin-top: 20px;
+  padding: 10px;
+  padding-left:115px;
+  font-size: 18px;
+  background-color: #eee
+}
+
+.jdg {
+  font-style: italic;
+  text-align: right;
+}
+
+.achvm {
+  font-size: 18px;
+}
+
+.champ {
+  color: yellow;
+  background-color: #3b1b14; 
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%; 
+  padding: 7px;
+}
+
+div.exh-container {
+    margin: 0 auto;
+    width: 75%;    
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 270px;
+}
+
+.showContent {
+    line-height: 1em;
+    height: auto;
+}
+
+.show-more {
+  text-align: center;
+  width: 200px;
+  background-color: #333;
+  margin: 0 auto;
+}
+
+.show-more a {
+  color: #ddd;
+  font-size: 20px;
+}
+
+.fb-album-container {
+  text-align: center;
+}

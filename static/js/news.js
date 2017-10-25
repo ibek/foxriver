@@ -13,7 +13,7 @@ var elResult = $('#result'),
 var fbFeed = new FacebookPageFeed({
     appid : '426407340854185',
     token : '426407340854185|1VWJq1dpLbDNBN-VCoKsekzl0g8',
-    pagename : 'testovacistranka1234',
+    pagename : 'chsfoxriver',
     format: 'html',
     feedlimit : 5,
     template: function(page, post){

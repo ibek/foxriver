@@ -38,7 +38,8 @@
             albumsMoreButtonText: "další alba...",
             photosPageSize: 0,
             photosMoreButtonText: "další fotky...",
-            checkedPhotos: []
+            checkedPhotos: [],
+            showMoreButton: true
         }
 
         var settings = $.extend({}, defaults, options);
@@ -334,7 +335,7 @@
 
                             if (settings.photosPageSize != null && settings.photosPageSize > 0) {
                                 var moreButton = $(container).parent().find(".fb-btn-more");
-                                if (moreButton.length == 0) {
+                                if (moreButton.length == 0 && settings.showMoreButton) {
                                     moreButton = $("<div>", { class: "fb-btn-more fb-photos-more", text: settings.photosMoreButtonText });
                                     $(container).parent().append(moreButton);
                                     $(moreButton).click(function () {
