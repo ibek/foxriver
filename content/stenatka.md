@@ -1,8 +1,8 @@
 +++
 menu = "main"
 title = "Štěňátka"
-type = "album"
+type = "stenatka"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
-
+Ke svátku syna Lukáše 18.10.2017 naše fenka ELLIS ESMA FOX RIVER porodila v noci 4 holčičky a 1 chlapečka.
+Otec štěňátek je krásný Ch.Jack Sandiré.

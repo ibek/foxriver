@@ -13,8 +13,9 @@
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav">
+                {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
-                <li>
+                <li {{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
                     <a href="{{ .URL }}">{{ .Name }}</a>
                 </li>
                 {{end}}

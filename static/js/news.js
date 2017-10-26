@@ -1,13 +1,13 @@
 var elResult = $('#result'),
     urlToJson = function(url) {
-    var hash;
-    var myJson = {};
-    var hashes = url.slice(url.indexOf('?') + 1).split('&');
-    for (var i = 0; i < hashes.length; i++) {
-        hash = hashes[i].split('=');
-        myJson[hash[0]] = hash[1];
-    }
-    return myJson;
+      var hash;
+      var myJson = {};
+      var hashes = url.slice(url.indexOf('?') + 1).split('&');
+      for (var i = 0; i < hashes.length; i++) {
+          hash = hashes[i].split('=');
+          myJson[hash[0]] = hash[1];
+      }
+      return myJson;
 }
 
 var fbFeed = new FacebookPageFeed({
@@ -15,7 +15,7 @@ var fbFeed = new FacebookPageFeed({
     token : '426407340854185|1VWJq1dpLbDNBN-VCoKsekzl0g8',
     pagename : 'chsfoxriver',
     format: 'html',
-    feedlimit : 5,
+    feedlimit : 3,
     template: function(page, post){
 
       var postBody = '';
@@ -59,7 +59,16 @@ var fbFeed = new FacebookPageFeed({
         $('.jumbotron').css({'background-image' : ''});
       }
       if(format == 'html'){
-        elResult.html('<div class="card-columns">'+res+'</div>');
+        var prevNext = "";
+        if( data.posts.paging.next){
+            prevNext = "<div>Starší</div>";
+            //$.getJSON(data.posts.paging.next, function(response){                
+            //    console.log(response);
+            //});
+        } else if( data.posts.paging.previous){
+            prevNext += "<div>Nové</div>";
+        }
+        elResult.html('<div class="card-columns">'+res+'</div>' + prevNext);
       } else {
         elResult.html('<pre>'+JSON.stringify(res, null, 2)+'</pre>');
       }

@@ -12,9 +12,8 @@
             
             <div class="icon" style="background:{{ .Params.colorCode }};">{{ .Params.color }}</div>
             <div class="icon" style="background:#ccc;left: 100px;">{{ .Params.size }}</div>
-						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
-            <a href="{{ .Params.pedigree }}" target="_blank"><div class="icon" style="background:#333;right: 0px;left:auto;padding-top:5px;color: white;"><i class="fa fa-book" aria-hidden="true"></i>
-<span style="margin-left: -14px;">rodokmen<span></div></a>
+						<h1 class="entry-title">{{ .Title }}</h1>
+            <a href="{{ .Params.pedigree }}" target="_blank"><div class="pedigree"></div></a>
 					  <div class="entry-meta">
 						  <span class="posted-on">narozena {{ .Params.born }}</span>
 					  </div>

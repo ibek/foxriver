@@ -11,7 +11,7 @@ PL = "MVDr. Ekr PL 0/0"
 pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 +++
 
-<div class="fb-album-container"></div>
+<div class="album390083388090696 fb-album-container"></div>
 
 <div class="content hideContent">
 
@@ -98,7 +98,7 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 
     window.addEventListener("load",function() {
       jQuery( document ).ready(function ($) {
-        $(".fb-album-container").FacebookAlbumBrowser({
+        $(".album390083388090696").FacebookAlbumBrowser({
               account: "chsfoxriver",
               accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
               onlyAlbum: "390083388090696",

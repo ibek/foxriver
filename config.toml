@@ -10,7 +10,7 @@ publishDir = "build"
     email = "bekovajana@seznam.cz"
     year = 2017
     background = ""
-    favicon = "images/gt_favicon.png"
+    favicon = "images/favicon.ico"
     DateForm = "January 2, 2006"
 
     showSubheader = true
