@@ -860,15 +860,15 @@ footer.entry-meta .meta-in {
 .champ {
   color: yellow;
   background-color: var(--dark-color);
-  width: 30px; 
-  height: 30px; 
-  border-radius: 50%; 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   padding: 7px;
 }
 
 div.exh-container {
     margin: 0 auto;
-    width: 75%;    
+    width: 75%;
 }
 
 .content {
@@ -915,4 +915,38 @@ div.exh-container {
   background-size: 75px 75px;
   width: 75px;
   height: 75px;
+}
+
+.panel-heading {
+  background-color: var(--light-color);
+}
+
+.card-text {
+  font-size: 22px;
+}
+
+.text-muted {
+  color: var(--darker-color);
+}
+
+.posts-footer {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+#oldPosts, #oldPosts a {
+  float: left;
+  color: var(--lighter-color);
+  background-color: var(--dark-color);
+  padding:3px;
+  border-radius: 8px;
+}
+
+#newPosts, #newPosts a {
+  float: right;
+  color: var(--lighter-color);
+  background-color: var(--dark-color);
+  padding:3px;
+  border-radius: 8px;
 }

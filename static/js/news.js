@@ -1,78 +1,166 @@
 var elResult = $('#result'),
-    urlToJson = function(url) {
-      var hash;
-      var myJson = {};
-      var hashes = url.slice(url.indexOf('?') + 1).split('&');
-      for (var i = 0; i < hashes.length; i++) {
-          hash = hashes[i].split('=');
-          myJson[hash[0]] = hash[1];
-      }
-      return myJson;
-}
+  urlToJson = function(url) {
+    var hash;
+    var myJson = {};
+    var hashes = url.slice(url.indexOf('?') + 1).split('&');
+    for (var i = 0; i < hashes.length; i++) {
+      hash = hashes[i].split('=');
+      myJson[hash[0]] = hash[1];
+    }
+    return myJson;
+  }
 
 var fbFeed = new FacebookPageFeed({
-    appid : '426407340854185',
-    token : '426407340854185|1VWJq1dpLbDNBN-VCoKsekzl0g8',
-    pagename : 'chsfoxriver',
-    format: 'html',
-    feedlimit : 3,
-    template: function(page, post){
+  appid: '426407340854185',
+  token: '426407340854185|1VWJq1dpLbDNBN-VCoKsekzl0g8',
+  pagename: 'chsfoxriver',
+  format: 'html',
+  pageScreen: 0,
+  pageScreenMax: 20,
+  feedlimit: 5,
+  template: function(page, post) {
 
-      var postBody = '';
-      postBody = '{{text}}{{cover}}';
-      if(post.attachments && post.attachments.data[0].media && post.attachments.data[0].media.image.src){
-        postBody = postBody.replace("{{cover}}", '<img src="'+post.attachments.data[0].media.image.src+'" class="img-responsive">');
-      } else {
-        postBody = postBody.replace("{{cover}}", '');
+    var postBody = '';
+    postBody = '{{text}}{{cover}}';
+    if (post.attachments && post.attachments.data[0].media && post.attachments
+      .data[0].media.image.src) {
+      postBody = postBody.replace("{{cover}}",
+        '<div class="text-center"><img src="' + post.attachments
+        .data[0].media.image.src + '"></div>');
+    } else if (post.attachments && post.attachments.data[0].subattachments) {
+      var sadata = post.attachments.data[0].subattachments.data;
+      text = "";
+      for (var i = 0; i < sadata.length; i++) {
+        text += '<div class="text-center"><img src="' + sadata[i].media.image
+          .src + '"></div>';
       }
-      postBody = postBody.replace("{{text}}", '<p class="card-text">'+post.message+'</p>');
-      
-      var date = new Date(post.created_time);
-      
-      var monthNames = [
-        "leden", "únor", "březen",
-        "duben", "květen", "červen", "červenec",
-        "srpen", "září", "říjen",
-        "listopad", "prosinec"
-      ];
+      postBody = postBody.replace("{{cover}}", text);
+    } else {
+      postBody = postBody.replace("{{cover}}", '');
+    }
+    postBody = postBody.replace("{{text}}", '<p class="card-text">' +
+      post.message + '</p>');
 
-      var day = date.getDate();
-      var monthIndex = date.getMonth();
-      var year = date.getFullYear();
+    var date = new Date(post.created_time);
 
-      var createdTime = day + ' ' + monthNames[monthIndex] + ' ' + year;
+    var monthNames = [
+      "leden", "únor", "březen",
+      "duben", "květen", "červen", "červenec",
+      "srpen", "září", "říjen",
+      "listopad", "prosinec"
+    ];
 
-      var tpl = '\
+    var day = date.getDate();
+    var monthIndex = date.getMonth();
+    var year = date.getFullYear();
+
+    var createdTime = day + ' ' + monthNames[monthIndex] + ' ' + year;
+
+    var tpl =
+      '\
         <div class="card card-block">\
           <div class="panel-heading"">\
-            '+createdTime+'\
+            ' +
+      createdTime +
+      '\
           </div>\
-          <div class="panel-body">'+postBody+'</div>\
+          <div class="panel-body">' + postBody +
+      '</div>\
         </div>';
 
-      return tpl;
-    },
-    onLoad: function(res, format, data){
-      if(data && data.cover){
-        $('.jumbotron').css({'background-image' : 'url(\''+data.cover.source+'\')'});
-      } else {
-        $('.jumbotron').css({'background-image' : ''});
-      }
-      if(format == 'html'){
-        var prevNext = "";
-        if( data.posts.paging.next){
-            prevNext = "<div>Starší</div>";
-            //$.getJSON(data.posts.paging.next, function(response){                
-            //    console.log(response);
-            //});
-        } else if( data.posts.paging.previous){
-            prevNext += "<div>Nové</div>";
-        }
-        elResult.html('<div class="card-columns">'+res+'</div>' + prevNext);
-      } else {
-        elResult.html('<pre>'+JSON.stringify(res, null, 2)+'</pre>');
+    return tpl;
+  },
+  onLoad: function(res, format, data) {
+    if (data && data.cover) {
+      $('.jumbotron').css({
+        'background-image': 'url(\'' + data.cover.source + '\')'
+      });
+    } else {
+      $('.jumbotron').css({
+        'background-image': ''
+      });
+    }
+    var prevNext = '<div class="posts-footer">';
+    if (data.posts.paging.next) {
+      prevNext +=
+        '<div id="oldPosts"><a id="oldPostsLink" href="#">Starší</a></div>';
+      var scope = this;
+      scope.data = data;
+      $(document).off('click', '#oldPostsLink');
+      $(document).on('click', '#oldPostsLink', function() {
+        scope.pageScreen += 1;
+        $.getJSON(scope.data.posts.paging.next, function(response) {
+          var r2 = {};
+          if (response.data && response.data.length > 0) {
+            r2.posts = response.data;
+            r2.posts.paging = response.paging;
+            scope.onLoad(scope.formatResponse(r2, scope),
+              scope.format, r2);
+          } else {
+            scope.pageScreenMax = scope.pageScreen - 1;
+            scope.pageScreen -= 1;
+            setTimeout(scope.updatePageScreen.bind(scope), 100);
+          }
+        }.bind(this));
+      }.bind(this));
+    }
+    if (data.posts.paging.previous) {
+      prevNext +=
+        '<div id="newPosts"><a id="newPostsLink" href="#">Nové</a></div>';
+      var scope = this;
+      scope.data = data;
+      $(document).off('click', '#newPostsLink');
+      $(document).on('click', '#newPostsLink', function() {
+        scope.pageScreen -= 1;
+        $.getJSON(scope.data.posts.paging.previous, function(
+          response) {
+          var r2 = {};
+          if (response.data && response.data.length > 0) {
+            r2.posts = response.data;
+            r2.posts.paging = response.paging;
+            scope.onLoad(scope.formatResponse(r2, scope),
+              scope.format, r2);
+          }
+        }.bind(this));
+      }.bind(this));
+    }
+    setTimeout(this.updatePageScreen.bind(this), 100);
+    elResult.html('<div class="card-columns">' + res + '</div>' +
+      prevNext + '</div>');
+  },
+  formatResponse: function(data, config) {
+    var html = '';
+    for (var i in data.posts) {
+      if (data.posts[i].message) {
+        data.posts[i].message = this.urlify(data.posts[i].message);
+        data.posts[i].likes = config.likesFormat((data.posts[i].likes) ?
+          data.posts[i].likes.summary.total_count : 0);
+        html += config.template(data.page, data.posts[i]);
       }
     }
+    return html;
+  },
+  urlify: function(text) {
+    text = text || "";
+    var urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, function(url) {
+      return '<a href="' + url + '" target="_blank">' + url +
+        '</a>';
+    });
+  },
+  updatePageScreen: function() {
+    if (this.pageScreen == 0) {
+      $('#newPosts').css("display", "none");
+    } else {
+      $('#newPosts').css("display", "block");
+    }
+
+    if (this.pageScreen == this.pageScreenMax) {
+      $('#oldPosts').css("display", "none");
+    } else {
+      $('#oldPosts').css("display", "block");
+    }
+  }
 });
 fbFeed.get();
 
