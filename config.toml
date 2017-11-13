@@ -1,6 +1,6 @@
 baseURL = "http://foxriver.cz/"
 languageCode = "cs-cz"
-title = "Chovatelská stanice Fox River"
+title = "Fox River | Chovatelská stanice"
 theme = "hugo-initio"
 publishDir = "build"
 
@@ -23,13 +23,12 @@ publishDir = "build"
     name = "home"
     url = "/"
     weight = 1
-    
+
 [[menu.main]]
-    name = "Chovné Fenky"
-    identifier = "chovne-fenky"
-    url = "/chovne-fenky/"
+    name = "Naši psi"
+    identifier = "nasi-psi"
+    url = "/nasi-psi/"
     weight = 5
 
 [params.google.analytics]
     trackerID = "GA-000000000-0"
-

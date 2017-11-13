@@ -14,7 +14,7 @@
 							  <span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
 						  </div>
             {{ end }}
- 						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
+ 						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark" lang="cz">{{ .Title }}</a></h1>
 					</header>
 					<div class="entry-content">
 						{{ .Content }}

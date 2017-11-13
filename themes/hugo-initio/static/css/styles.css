@@ -567,6 +567,7 @@ img {
 }
 .entry-content {
   margin: 0 0 60px 0;
+  text-align: justify;
 }
 .entry-content h2 {
   line-height: 1.2;
@@ -935,6 +936,14 @@ div.exh-container {
   margin-bottom: 60px;
 }
 
+.form-title {
+  font-size: 16px;
+}
+
+.form-data {
+  padding: 10px;
+}
+
 #oldPosts, #oldPosts a {
   float: left;
   color: var(--lighter-color);
@@ -949,4 +958,12 @@ div.exh-container {
   background-color: var(--dark-color);
   padding:3px;
   border-radius: 8px;
+}
+
+#language {
+  float: right;
+}
+
+#language a {
+  padding: 15px 20px;
 }

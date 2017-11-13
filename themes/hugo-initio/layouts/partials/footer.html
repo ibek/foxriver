@@ -12,8 +12,8 @@
 				<div class="widget-body">
 					<p class="text-right">
 						Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
-						Design: <a rel="designer">Initio</a> -
-                        Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+						Author: Ivo Bek -
+                        Powered by: gohugo
                     </p>
 				</div>
 			</div>
@@ -26,6 +26,18 @@
 
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script>window.jQuery || document.write('<script src="{{ .Site.BaseURL }}js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="{{ .Site.BaseURL }}js/vendor/js.cookie.js" charset="utf-8" type="text/javascript"></script>
+<script src="{{ .Site.BaseURL }}js/vendor/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+<script type="text/javascript">
+	var lang = new Lang();
+
+  lang.dynamic('en', '{{ .Site.BaseURL }}js/en.json');
+
+	lang.init({
+		defaultLang: 'cz'
+	});
+  setFlag();
+</script>
 <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.fb.albumbrowser.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/template.js"></script>

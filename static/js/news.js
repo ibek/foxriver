@@ -38,8 +38,10 @@ var fbFeed = new FacebookPageFeed({
     } else {
       postBody = postBody.replace("{{cover}}", '');
     }
+    var msg = post.message.replace(/\n/g, '<br/>');
     postBody = postBody.replace("{{text}}", '<p class="card-text">' +
-      post.message + '</p>');
+      msg + '</p>');
+    console.log(msg);
 
     var date = new Date(post.created_time);
 
@@ -54,7 +56,8 @@ var fbFeed = new FacebookPageFeed({
     var monthIndex = date.getMonth();
     var year = date.getFullYear();
 
-    var createdTime = day + ' ' + monthNames[monthIndex] + ' ' + year;
+    var createdTime = day + ' <span lang="cz">' + monthNames[monthIndex] +
+      '</span> ' + year;
 
     var tpl =
       '\
@@ -83,7 +86,7 @@ var fbFeed = new FacebookPageFeed({
     var prevNext = '<div class="posts-footer">';
     if (data.posts.paging.next) {
       prevNext +=
-        '<div id="oldPosts"><a id="oldPostsLink" href="#">Starší</a></div>';
+        '<div id="oldPosts"><a id="oldPostsLink" href="#" lang="cz">Starší</a></div>';
       var scope = this;
       scope.data = data;
       $(document).off('click', '#oldPostsLink');
@@ -106,7 +109,7 @@ var fbFeed = new FacebookPageFeed({
     }
     if (data.posts.paging.previous) {
       prevNext +=
-        '<div id="newPosts"><a id="newPostsLink" href="#">Nové</a></div>';
+        '<div id="newPosts"><a id="newPostsLink" href="#" lang="cz">Nové</a></div>';
       var scope = this;
       scope.data = data;
       $(document).off('click', '#newPostsLink');

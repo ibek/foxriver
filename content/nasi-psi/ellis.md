@@ -15,7 +15,7 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 
 <div class="content hideContent">
 
-<div class="achvm">
+<div class="achvm" lang="cz">
 <i class="fa fa-trophy champ" aria-hidden="true"></i>
   Český Šampion
 </div>
@@ -47,7 +47,7 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
   <div class="jdg">Lenka Frnčová</div>
 </div>
 
-<div class="achvm">
+<div class="achvm" lang="cz">
 <i class="fa fa-trophy champ" aria-hidden="true"></i>
   Český Junior Šampion
 </div>

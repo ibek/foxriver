@@ -16,9 +16,11 @@
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 <li {{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}" lang="cz">{{ .Name }}</a>
                 </li>
                 {{end}}
+                <li id="language">
+                </li>
                 <!--
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="about">About</a></li>
@@ -33,7 +35,20 @@
                 <li><a href="post">Blog</a></li>
                 -->
             </ul>
-
+            <script>
+            setFlag = function() {
+              var lang = Cookies.get('langCookie');
+              if (!lang) {
+                lang = window.lang;
+              }
+              console.log(lang);
+              if (lang === "en") {
+                document.getElementById("language").innerHTML = '<a href="#lang-cz" onclick="window.lang.change(\'cz\'); setFlag();return false;"><img src="{{ .Site.BaseURL }}images/cz-flag.png"></img></a>';
+              } else {
+                document.getElementById("language").innerHTML = '<a href="#lang-en" onclick="window.lang.change(\'en\'); setFlag(); return false;"><img src="{{ .Site.BaseURL }}images/en-flag.png"></img></a>';
+              }
+            }
+            </script>
         </div><!--/.nav-collapse -->
     </div>
 </nav>

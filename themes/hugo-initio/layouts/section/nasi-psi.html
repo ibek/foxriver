@@ -9,13 +9,13 @@
                 {{ range .Paginator.Pages }}
 				<article class="post">
 					<header class="entry-header">
-            
+
             <div class="icon" style="background:{{ .Params.colorCode }};">{{ .Params.color }}</div>
-            <div class="icon" style="background:#ccc;left: 100px;">{{ .Params.size }}</div>
+            <div class="icon" style="background:#ccc;left: 100px;" lang="cz">{{ .Params.size }}</div>
 						<h1 class="entry-title">{{ .Title }}</h1>
             <a href="{{ .Params.pedigree }}" target="_blank"><div class="pedigree"></div></a>
 					  <div class="entry-meta">
-						  <span class="posted-on">narozena {{ .Params.born }}</span>
+						  <span class="posted-on" lang="cz">narozena {{ .Params.born }}</span>
 					  </div>
 					</header>
 					<div class="entry-content">
@@ -35,16 +35,16 @@
 
 
 	</div>	<!-- /container -->
-	
-	
+
+
   <script>
     window.addEventListener("load",function() {
     $(".show-more a").on("click", function() {
-          var $this = $(this); 
+          var $this = $(this);
           var $content = $this.parent().prev("div.content");
           console.log($content);
-          var linkText = $this.text().toUpperCase();    
-          
+          var linkText = $this.text().toUpperCase();
+
           if(linkText === "ZOBRAZIT VŠE"){
               linkText = "Schovat";
               $content.addClass('showContent').removeClass('hideContent');
