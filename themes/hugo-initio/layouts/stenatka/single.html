@@ -18,38 +18,11 @@
 
 			<!-- Article main content -->
 			<article class="col-sm-8 maincontent">
+                <div style="text-align: justify;">
                 {{ .Content }}
-                <div class="fb-album-container"></div>
+                </div>
 			</article>
 			<!-- /Article -->
-
-      <script type="text/javascript">
-          window.onload = function() {
-            jQuery( document ).ready(function ($) {
-
-              $(".fb-album-container").FacebookAlbumBrowser({
-                    account: "natgeo",
-                    accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
-                    onlyAlbum: "390356551396713",
-                    showComments: false,
-                    commentsLimit:3,
-                    showAccountInfo: false,
-                    showAlbumNameInPreview: false,
-                    showImageCount: false,
-                    showImageText: true,
-                    shareButton: false,
-                    albumsPageSize: 10,
-                    photosPageSize: 10,
-                    lightbox: true,
-                    photosCheckbox: false,
-				            pluginImagesPath: "{{ .Site.BaseURL }}images/",
-                    likeButton: false,
-                    shareButton: false,
-                    showMoreButton: false
-                });
-            });
-          }
-      </script>
 
 		</div>
 	</div>	<!-- /container -->

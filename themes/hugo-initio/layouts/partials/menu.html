@@ -13,6 +13,9 @@
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav">
+                <li id="fci">
+                  <img src="{{ .Site.BaseURL }}images/fci.png" alt="Mezinárodní kynologická federace" ></img>
+                </li>
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 <li {{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
@@ -41,7 +44,6 @@
               if (!lang) {
                 lang = window.lang;
               }
-              console.log(lang);
               if (lang === "en") {
                 document.getElementById("language").innerHTML = '<a href="#lang-cz" onclick="window.lang.change(\'cz\'); setFlag();return false;"><img src="{{ .Site.BaseURL }}images/cz-flag.png"></img></a>';
               } else {
