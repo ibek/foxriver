@@ -13,11 +13,13 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 
 <div class="album390083388090696 fb-album-container"></div>
 
-<div class="content hideContent">
+<div class="content hideContent" link="ellis">
 
-<div class="achvm" lang="cz">
-<i class="fa fa-trophy champ" aria-hidden="true"></i>
+<div class="champ">
+<img src="../images/champion.png"></img>
+<div class="achvm highlight" lang="cz">
   Český Šampion
+</div>
 </div>
 
 <div class="exh">
@@ -47,9 +49,11 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
   <div class="jdg">Lenka Frnčová</div>
 </div>
 
-<div class="achvm" lang="cz">
-<i class="fa fa-trophy champ" aria-hidden="true"></i>
+<div class="champ">
+<img src="../images/champion.png"></img>
+<div class="achvm highlight" lang="cz">
   Český Junior Šampion
+</div>
 </div>
 
 <div class="exh">
@@ -90,7 +94,7 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 </div>
 
 <div class="show-more">
-  <a href="#">Zobrazit vše</a>
+  <a href="#ellis">Zobrazit vše</a>
 </div>
 
 
