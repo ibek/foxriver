@@ -1,9 +1,17 @@
 :root {
-    --light-color: #FFFDFA;
-    --lighter-color: #EAE4D6;
-    --medium-color: #BAB09C;
-    --darker-color: #91856C;
-    --dark-color: #5A4F39;
+/**
+      --light-color: #FFFDFA;
+      --lighter-color: #EAE4D6;
+      --medium-color: #BAB09C;
+      --darker-color: #91856C;
+      --dark-color: #5A4F39;
+*/
+      --light-color: #5A4F39;
+      --lighter-color: #91856C;
+      --medium-color: #BAB09C;
+      --darker-color: #EAE4D6;
+      --dark-color: #FFFDFA;
+
 }
 
 html {
@@ -75,7 +83,7 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: var(--medium-color);
+  background-color: var(--light-color);
   border-color: var(--darker-color);
 }
 .navbar-default .navbar-nav > li > a {
@@ -181,7 +189,6 @@ h6,
 .h6 {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: var(--dark-color);
 }
 h1 {
   font-size: 40px;
@@ -833,6 +840,7 @@ footer.entry-meta .meta-in {
   border:solid 5px var(--darker-color);
   padding: 10px;
   text-align: center;
+  color: black;
 }
 
 .exh {
@@ -850,6 +858,7 @@ footer.entry-meta .meta-in {
   padding-left:115px;
   font-size: 18px;
   background-color: var(--light-color);
+  color: var(--dark-color)
 }
 
 .jdg {
@@ -894,7 +903,7 @@ div.exh-container {
 }
 
 .show-more a {
-  color: var(--lighter-color);
+  color: var(--light-color);
   font-size: 20px;
 }
 
@@ -954,7 +963,7 @@ div.exh-container {
 
 #oldPosts, #oldPosts a {
   float: left;
-  color: var(--lighter-color);
+  color: var(--light-color);
   background-color: var(--dark-color);
   padding:3px;
   border-radius: 8px;
@@ -962,7 +971,7 @@ div.exh-container {
 
 #newPosts, #newPosts a {
   float: right;
-  color: var(--lighter-color);
+  color: var(--light-color);
   background-color: var(--dark-color);
   padding:3px;
   border-radius: 8px;
@@ -986,7 +995,7 @@ article {
 
 .highlight {
   background-color: #FFB833;
-  color: var(--dark-color);
+  color: var(--light-color);
   font-size: 1.1375rem;
   font-weight: bolder;
   padding-top: 10px;

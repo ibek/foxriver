@@ -1,31 +1,38 @@
 {
-	"token": {
-		"Novinky":"News",
-		"Starší":"Older Posts",
-		"Nové":"Newer Posts",
-		"leden":"January",
-		"únor":"February",
-		"březen":"March",
-		"duben":"April",
-		"květen":"May",
-		"červen":"June",
-		"červenec":"July",
-		"srpen":"August",
-		"září":"September",
-		"říjen":"October",
-		"listopad":"November",
-		"prosinec":"December",
-		"Štěňátka":"Puppies",
-		"O plemeni":"Breed description",
-		"Naši psi":"Our Dogs",
-		"Kontakt":"Contact",
-		"Adresa:":"Address:",
-		"Telefon:":"Telephone:",
-		"Český Šampion":"Czech Champion",
-		"Český Junior Šampion":"Czech Junior Champion"
-	},
-	"regex": [
-		["narozen[a]?(.*)", "i", "born $1"],
-		["mal[ýá]?(.*)", "i", "small $1"]
-	]
+  "token": {
+    "Novinky": "News",
+    "Starší": "Older Posts",
+    "Nové": "Newer Posts",
+    "leden": "January",
+    "únor": "February",
+    "březen": "March",
+    "duben": "April",
+    "květen": "May",
+    "červen": "June",
+    "červenec": "July",
+    "srpen": "August",
+    "září": "September",
+    "říjen": "October",
+    "listopad": "November",
+    "prosinec": "December",
+    "Štěňátka": "Puppies",
+    "O plemeni": "Breed description",
+    "Naši psi": "Our Dogs",
+    "Kontakt": "Contact",
+    "Adresa:": "Address:",
+    "Telefon:": "Telephone:",
+    "Český Šampion": "Czech Champion",
+    "Český Junior Šampion": "Czech Junior Champion",
+    "welcome-message": "This is a small family breeding kennel that specializes in breeding small german spitz (23 - 28 cm) in orange, orange-sable, créme, and créme-sable colors since 2008. The founders of the kennel were CH. Hakim Kaveta Bohemia, an orange male dog, and CH. Gina Orlovská perla, an orange female dog. We live in the Czech Republic, in an astonishing region of millstone grit rocks in the protected landscape park Broumovsko.",
+    "Zobrazit vše": "Show All",
+    "Schovat": "Hide",
+    "puppies-introduction-g": "In the name-day of son Lukas, 18.10.2017, our female dog Ellis Esma Fox River gave birth to 4 girls and 1 boy. The father of the puppies is a charming CH. Jack Sandiré.",
+    "Další fotky...": "More Photos",
+    "Další alba...": "More Albums",
+    "Vrh": "Litter"
+  },
+  "regex": [
+    ["narozen[a]?(.*)", "i", "born $1"],
+    ["mal[ýá]?(.*)", "i", "small $1"]
+  ]
 }

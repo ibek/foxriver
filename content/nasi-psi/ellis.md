@@ -94,7 +94,7 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 </div>
 
 <div class="show-more">
-  <a href="#ellis">Zobrazit vše</a>
+  <a href="#ellis" lang="cz">Zobrazit vše</a>
 </div>
 
 

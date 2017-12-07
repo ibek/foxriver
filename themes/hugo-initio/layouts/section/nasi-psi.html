@@ -48,8 +48,14 @@
           if(linkText === "ZOBRAZIT VŠE"){
               linkText = "Schovat";
               $content.addClass('showContent').removeClass('hideContent');
-          } else {
+          } else if (linkText === "SCHOVAT") {
               linkText = "Zobrazit vše";
+              $content.addClass('hideContent').removeClass('showContent');
+          } else if (linkText === "SHOW ALL") {
+              linkText = "Hide";
+              $content.addClass('showContent').removeClass('hideContent');
+          } else if (linkText === "HIDE") {
+              linkText = "Show All";
               $content.addClass('hideContent').removeClass('showContent');
           };
 
