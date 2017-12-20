@@ -2,7 +2,6 @@
   "version": 2,
   "pipeline": [
     "images",
-    "styles",
     "scripts",
     "fingerprint",
     "html"
@@ -24,9 +23,6 @@
     "browsers": [
       "last 2 versions"
     ]
-  },
-  "cleancss": {
-    "advanced": false
   },
   "htmlmin": {
     "collapseWhitespace": true

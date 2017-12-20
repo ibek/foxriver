@@ -31,4 +31,4 @@ publishDir = "build"
     weight = 5
 
 [params.google.analytics]
-    trackerID = "GA-000000000-0"
+    trackerID = "UA-52295302-2"

@@ -1018,3 +1018,23 @@ article {
 h1 a:hover {
   background-color: transparent;
 }
+
+.vrh {
+  background-color: var(--medium-color);
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 52px;
+  font-weight: bolder;
+  -moz-border-top-left-radius: 10px;
+  -moz-border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: default;
+}
+
+.vrhSmaller {
+  font-size: 24px;
+  font-weight: lighter;;
+}
