@@ -8,6 +8,8 @@ weight = "5"
 
 <h2><span lang="cz">Vrh</span> G</h2>
 
+![Vrh G](/images/vrhg.jpg)
+
 <p lang="cz" data-lang-token="puppies-introduction-g">
 Ke svátku syna Lukáše 18.10.2017 naše fenka Ellis Esma Fox River porodila v noci 4 holčičky a 1 chlapečka.
 Otec štěňátek je krásný Ch.Jack Sandiré.
