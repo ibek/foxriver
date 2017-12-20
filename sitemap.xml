@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://foxriver.cz/o-plemeni/</loc>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/stenatka/</loc>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/kontakt/</loc>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/nasi-psi/ellis/</loc>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/nasi-psi/gira/</loc>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/nasi-psi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://foxriver.cz/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

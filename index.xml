@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fox River | Chovatelská stanice</title>
+    <link>http://foxriver.cz/</link>
+    <description>Recent content on Fox River | Chovatelská stanice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-cz</language>
+    
+	<atom:link href="http://foxriver.cz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O plemeni</title>
+      <link>http://foxriver.cz/o-plemeni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foxriver.cz/o-plemeni/</guid>
+      <description>Historie Špic je jedním z nejstarších dodnes chovaných plemen psů. Archeologické nálezy zbytků koster původních špicovitých psů na území Švýcarska a Německa jsou datovány do doby před pěti tisíci lety.
+Tito psi byli nazvání psy rašelinnými. Vyobrazení špiců na různých hliněných a keramických nádobách ukazují, že tito pejsci odpradávna žili uprostřed lidských společností. Špicovití psi byli jedni z nejrozšířenějších po celé Evropě. Bylo to díky jejich odolnosti, statečnosti a hlavně všestrannosti.</description>
+    </item>
+    
+    <item>
+      <title>Štěňátka</title>
+      <link>http://foxriver.cz/stenatka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foxriver.cz/stenatka/</guid>
+      <description>Vrh G Ke svátku syna Lukáše 18.10.2017 naše fenka Ellis Esma Fox River porodila v noci 4 holčičky a 1 chlapečka. Otec štěňátek je krásný Ch.Jack Sandiré.   window.onload = function() { jQuery( document ).ready(function ($) { $(&#34;.fb-album-container&#34;).FacebookAlbumBrowser({ account: &#34;natgeo&#34;, accessToken: &#34;775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4&#34;, onlyAlbum: &#34;390356551396713&#34;, showComments: false, commentsLimit:3, showAccountInfo: false, showAlbumNameInPreview: false, showImageCount: false, showImageText: true, shareButton: false, albumsPageSize: 100, photosPageSize: 9, lightbox: true, photosCheckbox: false, pluginImagesPath: &#34;{{ .Site.BaseURL }}images/&#34;, likeButton: false, shareButton: false, showMoreButton: true }); }); }</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>http://foxriver.cz/kontakt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foxriver.cz/kontakt/</guid>
+      <description>Jana Beková Adresa: Strmá 135, Broumov 55001 Telefon: 737 538898 Email: bekovajana@seznam.cz  </description>
+    </item>
+    
+    <item>
+      <title>Ellis Esma Fox River</title>
+      <link>http://foxriver.cz/nasi-psi/ellis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foxriver.cz/nasi-psi/ellis/</guid>
+      <description>Český Šampion   05.02.2017 MVP DUO CACIB Brno, tř. otevřená  V1, CAC, Res.CACIB Esa Ruotsalainen (FIN)  15.05.2016 Klubová výstava špiců, Zbraslav u Brna  V1, CAC, Nejlepší fena klubové výstavy, BOB Aigner Phyllis (A)  14.05.2016 Speciální výstava špiců, Zbraslav u Brna  V1, CAC Lenka Frnčová   Český Junior Šampion   03.05.2015 MVP Praha  V1, CAJC Marie Marušková  16.05.2015 Specíální výstava, Zbraslav u Brna  V1, CAJC Izabella Krasowska Salamon (PL)  17.</description>
+    </item>
+    
+    <item>
+      <title>Fantagira Fantasy Fox River</title>
+      <link>http://foxriver.cz/nasi-psi/gira/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foxriver.cz/nasi-psi/gira/</guid>
+      <description>10.11.2017 World Dog Show Leipzig, tř.mladých  ex.1, WORLD JUNIOR WINNER, BEST JUNIOR OF BREED, BOS Christine Rossier (CHE)  5.10.2017 MVP Praha, tř.mladých  V1, CAJC, BOJ R.Kotvaltová 3.místo JBIG v V.skupině Austin Long-Doyle Austin, Ireland  4.10.2017 MVP Praha, tř.mladých  V1, CAJC, BOJ Marie Marušková  16.9.2017 Klubová výstava Mladá Boleslav, tř.dorost  VN 1, Nejlepší dorost výstavy Marie Marušková  15.5.2017 Klubová výstava špiců Zbraslav u Brna, tř.</description>
+    </item>
+    
+  </channel>
+</rss>
