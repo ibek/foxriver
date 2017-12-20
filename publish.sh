@@ -22,5 +22,6 @@ echo "Generating site"
 hugo
 
 echo "Updating gh-pages branch"
+echo "foxriver.cz" >> CNAME
 cd build && git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && git push origin gh-pages && cd ..
 
