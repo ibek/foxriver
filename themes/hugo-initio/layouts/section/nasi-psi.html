@@ -11,8 +11,10 @@
 					<header class="entry-header">
 
             <div class="icon" style="background:{{ .Params.colorCode }};">{{ .Params.color }}</div>
-            <div class="icon" style="background:#ccc;left: 100px;" lang="cz">{{ .Params.size }}</div>
-						<h1 class="entry-title">{{ .Title }}</h1>
+            <div class="icon" style="background:#ccc;left: 90px;" lang="cz">{{ .Params.size }}</div>
+            <div>
+						        <h1 class="entry-title name-plate">{{ .Title }}</h1>
+            </div>
             <a href="{{ .Params.pedigree }}" target="_blank"><div class="pedigree"><span class="pedigree-label">Rodokmen</span></div></a>
 					  <div class="entry-meta">
 						  <span class="posted-on" lang="cz">narozena {{ .Params.born }}</span>

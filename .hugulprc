@@ -1,14 +1,12 @@
 {
   "version": 2,
   "pipeline": [
-    "images",
     "scripts",
     "fingerprint",
     "html"
   ],
   "path": {
     "styles": "css",
-    "images": "images",
     "scripts": "js"
   },
   "watch": {

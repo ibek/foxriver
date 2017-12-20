@@ -33,11 +33,20 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 
 <div class="exh">
   <div class="subtitle">
+    <div>04.02.2017</div>
+    <h5>MVP DUO CACIB Brno, tř. otevřená</h5>
+  </div>
+  <div class="appr">V1, CAC</div>
+  <div class="jdg">Cecarelli Maria (IT)</div>
+</div>
+
+<div class="exh">
+  <div class="subtitle">
     <div>15.05.2016</div>
     <h5>Klubová výstava špiců, Zbraslav u Brna</h5>
   </div>
   <div class="appr">V1, CAC, Nejlepší fena klubové výstavy, BOB</div>
-  <div class="jdg">Aigner Phyllis (A)</div>
+  <div class="jdg">Phyllis Poduschka Aigner (A)</div>
 </div>
 
 <div class="exh">

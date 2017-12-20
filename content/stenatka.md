@@ -38,7 +38,7 @@ Otec štěňátek je krásný Ch.Jack Sandiré.
               photosPageSize: 9,
               lightbox: true,
               photosCheckbox: false,
-	            pluginImagesPath: "{{ .Site.BaseURL }}images/",
+	            pluginImagesPath: "../images/",
               likeButton: false,
               shareButton: false,
               showMoreButton: true

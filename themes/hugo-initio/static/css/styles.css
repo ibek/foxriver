@@ -520,6 +520,7 @@ img {
 **********************************************************************/
 .section-title,
 .entry-title {
+  color: var(--dark-color);
   display: block;
   width: 100%;
   overflow: hidden;
@@ -832,7 +833,7 @@ footer.entry-meta .meta-in {
 
 .icon {
   position: absolute;
-  top: -20px;
+  top: 20px;
   left: 0;
   width: 75px;
   height: 75px;
@@ -920,8 +921,8 @@ div.exh-container {
 
 .pedigree {
   position: absolute;
-  right: 0px;
-  top: -20px;
+  right: 90px;
+  top: 20px;
   background: url(../images/pedigree.png) top center;
   background-size: 75px 75px;
   width: 75px;
@@ -1037,4 +1038,13 @@ h1 a:hover {
 .vrhSmaller {
   font-size: 24px;
   font-weight: lighter;;
+}
+
+.name-plate {
+  width: 600px;
+  height: 114px;
+  background: transparent url(../images/name-plate.png) top center;
+  margin: 0 auto;
+  padding-top: 35px;
+  color: #12100b;
 }
