@@ -1,211 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Ivo Bek">
-
-	<title>Naši psi</title>
-
-	<link rel="shortcut icon" href="http://foxriver.cz/images/favicon.ico">
-
-	
-	<link href="http://foxriver.cz/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	
-	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	
-	<link rel="stylesheet" href="http://foxriver.cz/css/styles.css">
-	<link rel="stylesheet" type="text/css" href="http://foxriver.cz/css/jquery.fb.albumbrowser.css" />
-
-	
-
-    
-        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=&product=inline-share-buttons"></script>
-    
-
-</head>
-<body class="home">
-
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
-	</div>
-
-    <nav class="navbar navbar-default navbar-sticky">
-    <div class="container-fluid">
-
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-
-        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-
-            <ul class="nav navbar-nav">
-                <li id="fci">
-                  <img src="http://foxriver.cz/images/fci.png" alt="Mezinárodní kynologická federace" ></img>
-                </li>
-                
-                
-                <li >
-                    <a href="/" lang="cz">home</a>
-                </li>
-                
-                <li >
-                    <a href="/o-plemeni/" lang="cz">O plemeni</a>
-                </li>
-                
-                <li  class="active">
-                    <a href="/nasi-psi/" lang="cz">Naši psi</a>
-                </li>
-                
-                <li >
-                    <a href="/stenatka/" lang="cz">Štěňátka</a>
-                </li>
-                
-                <li >
-                    <a href="/kontakt/" lang="cz">Kontakt</a>
-                </li>
-                
-                <li id="language">
-                </li>
-                
-            </ul>
-            <script>
-            setFlag = function() {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content=""><meta name="author" content="Ivo Bek"><title>Naši psi</title><link rel="shortcut icon" href="http://foxriver.cz/images/favicon-b147a7faef-b147a7faef.ico"><link href="http://foxriver.cz/css/bootstrap-4eadbf7d17.no-icons.min.css" rel="stylesheet"><link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome-1f9e9d1a5a.css" rel="stylesheet"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700"><link rel="stylesheet" href="http://foxriver.cz/css/styles-9b3afa1062.css"><link rel="stylesheet" type="text/css" href="http://foxriver.cz/css/jquery-b8a91e87b2.fb.albumbrowser.css"><script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=&product=inline-share-buttons"></script></head><body class="home"><header id="header"><div id="head" class="parallax" parallax-speed="2"></div><nav class="navbar navbar-default navbar-sticky"><div class="container-fluid"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li id="fci"><img src="http://foxriver.cz/images/fci-afae60762b-afae60762b.png" alt="Mezinárodní kynologická federace"></li><li><a href="/" lang="cz">home</a></li><li><a href="/o-plemeni/" lang="cz">O plemeni</a></li><li class="active"><a href="/nasi-psi/" lang="cz">Naši psi</a></li><li><a href="/stenatka/" lang="cz">Štěňátka</a></li><li><a href="/kontakt/" lang="cz">Kontakt</a></li><li id="language"></li></ul><script>setFlag = function() {
               var lang = Cookies.get('langCookie');
               if (!lang) {
                 lang = window.lang;
               }
               if (lang === "en") {
-                document.getElementById("language").innerHTML = '<a href="#lang-cz" onclick="window.lang.change(\'cz\'); setFlag();return false;"><img src="http:\/\/foxriver.cz\/images/cz-flag.png"></img></a>';
+                document.getElementById("language").innerHTML = '<a href="#lang-cz" onclick="window.lang.change(\'cz\'); setFlag();return false;"><img src="http:\/\/foxriver.cz\/images/cz-flag-9dc2693034-9dc2693034.png"></img></a>';
               } else {
-                document.getElementById("language").innerHTML = '<a href="#lang-en" onclick="window.lang.change(\'en\'); setFlag(); return false;"><img src="http:\/\/foxriver.cz\/images/en-flag.png"></img></a>';
+                document.getElementById("language").innerHTML = '<a href="#lang-en" onclick="window.lang.change(\'en\'); setFlag(); return false;"><img src="http:\/\/foxriver.cz\/images/en-flag-a095570103-a095570103.png"></img></a>';
               }
-            }
-            </script>
-        </div>
-    </div>
-</nav>
-
-
-</header>
-
-
-<main id="main">
-
-	<div class="container">
-		<div class="row topspace">
-			<div class="col-sm-10 col-sm-offset-1">
-
-                
-				<article class="post">
-					<header class="entry-header">
-
-            <div class="icon" style="background:#edddbe;">creme sable</div>
-            <div class="icon" style="background:#ccc;left: 100px;" lang="cz">malá 27cm</div>
-						<h1 class="entry-title">Ellis Esma Fox River</h1>
-            <a href="http://www.spic.cz/genealogie/index.php?pid=17396" target="_blank"><div class="pedigree"><span class="pedigree-label">Rodokmen</span></div></a>
-					  <div class="entry-meta">
-						  <span class="posted-on" lang="cz">narozena 3. srpen 2014</span>
-					  </div>
-					</header>
-					<div class="entry-content">
-						<div class="album390083388090696 fb-album-container"></div>
-
-<div class="content hideContent" link="ellis">
-
-<div class="champ">
-<img src="../images/champion.png"></img>
-<div class="achvm highlight" lang="cz">
-  Český Šampion
-</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>05.02.2017</div>
-    <h5>MVP DUO CACIB Brno, tř. otevřená</h5>
-  </div>
-  <div class="appr">V1, CAC, Res.CACIB</div>
-  <div class="jdg">Esa Ruotsalainen (FIN)</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>15.05.2016</div>
-    <h5>Klubová výstava špiců, Zbraslav u Brna</h5>
-  </div>
-  <div class="appr">V1, CAC, Nejlepší fena klubové výstavy, BOB</div>
-  <div class="jdg">Aigner Phyllis (A)</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>14.05.2016</div>
-    <h5>Speciální výstava špiců, Zbraslav u Brna</h5>
-  </div>
-  <div class="appr">V1, CAC</div>
-  <div class="jdg">Lenka Frnčová</div>
-</div>
-
-<div class="champ">
-<img src="../images/champion.png"></img>
-<div class="achvm highlight" lang="cz">
-  Český Junior Šampion
-</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>03.05.2015</div>
-    <h5>MVP Praha</h5>
-  </div>
-  <div class="appr">V1, CAJC</div>
-  <div class="jdg">Marie Marušková</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>16.05.2015</div>
-    <h5>Specíální výstava, Zbraslav u Brna</h5>
-  </div>
-  <div class="appr">V1, CAJC</div>
-  <div class="jdg">Izabella Krasowska Salamon (PL)</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>17.05.2015</div>
-    <h5>Klubová výstava, Zbraslav u Brna</h5>
-  </div>
-  <div class="appr">V1, CAJC</div>
-  <div class="jdg">Lea Jonasová</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>14.06.2015</div>
-    <h5>XL Karkonoska Wystawa Psów Rasowych, National Dog Show, Jelenia Góra (PL)</h5>
-  </div>
-  <div class="appr">V1, Youth Winner, Best Junior, Best of Breed (BOB)</div>
-  <div class="jdg">Leszek Salamon (PL)</div>
-</div>
-</div>
-
-<div class="show-more">
-  <a href="#ellis" lang="cz">Zobrazit vše</a>
-</div>
-
-<script type="text/javascript">
-
-    window.addEventListener("load",function() {
+            }</script></div></div></nav></header><main id="main"><div class="container"><div class="row topspace"><div class="col-sm-10 col-sm-offset-1"><article class="post"><header class="entry-header"><div class="icon" style="background:#edddbe;">creme sable</div><div class="icon" style="background:#ccc;left: 100px;" lang="cz">malá 27cm</div><h1 class="entry-title">Ellis Esma Fox River</h1><a href="http://www.spic.cz/genealogie/index.php?pid=17396" target="_blank"><div class="pedigree"><span class="pedigree-label">Rodokmen</span></div></a><div class="entry-meta"><span class="posted-on" lang="cz">narozena 3. srpen 2014</span></div></header><div class="entry-content"><div class="album390083388090696 fb-album-container"></div><div class="content hideContent" link="ellis"><div class="champ"><img src="../images/champion-90a553eb30-90a553eb30.png"><div class="achvm highlight" lang="cz">Český Šampion</div></div><div class="exh"><div class="subtitle"><div>05.02.2017</div><h5>MVP DUO CACIB Brno, tř. otevřená</h5></div><div class="appr">V1, CAC, Res.CACIB</div><div class="jdg">Esa Ruotsalainen (FIN)</div></div><div class="exh"><div class="subtitle"><div>15.05.2016</div><h5>Klubová výstava špiců, Zbraslav u Brna</h5></div><div class="appr">V1, CAC, Nejlepší fena klubové výstavy, BOB</div><div class="jdg">Aigner Phyllis (A)</div></div><div class="exh"><div class="subtitle"><div>14.05.2016</div><h5>Speciální výstava špiců, Zbraslav u Brna</h5></div><div class="appr">V1, CAC</div><div class="jdg">Lenka Frnčová</div></div><div class="champ"><img src="../images/champion-90a553eb30-90a553eb30.png"><div class="achvm highlight" lang="cz">Český Junior Šampion</div></div><div class="exh"><div class="subtitle"><div>03.05.2015</div><h5>MVP Praha</h5></div><div class="appr">V1, CAJC</div><div class="jdg">Marie Marušková</div></div><div class="exh"><div class="subtitle"><div>16.05.2015</div><h5>Specíální výstava, Zbraslav u Brna</h5></div><div class="appr">V1, CAJC</div><div class="jdg">Izabella Krasowska Salamon (PL)</div></div><div class="exh"><div class="subtitle"><div>17.05.2015</div><h5>Klubová výstava, Zbraslav u Brna</h5></div><div class="appr">V1, CAJC</div><div class="jdg">Lea Jonasová</div></div><div class="exh"><div class="subtitle"><div>14.06.2015</div><h5>XL Karkonoska Wystawa Psów Rasowych, National Dog Show, Jelenia Góra (PL)</h5></div><div class="appr">V1, Youth Winner, Best Junior, Best of Breed (BOB)</div><div class="jdg">Leszek Salamon (PL)</div></div></div><div class="show-more"><a href="#ellis" lang="cz">Zobrazit vše</a></div><script type="text/javascript">window.addEventListener("load",function() {
       jQuery( document ).ready(function ($) {
         $(".album390083388090696").FacebookAlbumBrowser({
               account: "chsfoxriver",
@@ -228,92 +31,7 @@
               showMoreButton: false
           });
       });
-    },false);
-</script>
-
-					</div>
-				</article>
-                
-				<article class="post">
-					<header class="entry-header">
-
-            <div class="icon" style="background:#FFB833;">orange</div>
-            <div class="icon" style="background:#ccc;left: 100px;" lang="cz">malá</div>
-						<h1 class="entry-title">Fantagira Fantasy Fox River</h1>
-            <a href="http://www.spic.cz/genealogie/index.php?pid=20759" target="_blank"><div class="pedigree"><span class="pedigree-label">Rodokmen</span></div></a>
-					  <div class="entry-meta">
-						  <span class="posted-on" lang="cz">narozena 30. prosinec 2016</span>
-					  </div>
-					</header>
-					<div class="entry-content">
-						<div class="album405261046572930 fb-album-container"></div>
-
-<div class="content hideContent" link="gira">
-
-<div class="exh highlight">
-  <div class="subtitle">
-    <div>10.11.2017</div>
-    <h5>World Dog Show Leipzig, tř.mladých</h5>
-  </div>
-  <div class="appr">ex.1, WORLD JUNIOR WINNER, BEST JUNIOR OF BREED, BOS</div>
-  <div class="jdg">Christine Rossier (CHE)</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>5.10.2017</div>
-    <h5>MVP Praha, tř.mladých</h5>
-  </div>
-  <div class="appr">V1, CAJC, BOJ</div>
-  <div class="jdg">R.Kotvaltová</div>
-  <div class="appr">3.místo JBIG v V.skupině</div>
-  <div class="jdg">Austin Long-Doyle Austin, Ireland</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>4.10.2017</div>
-    <h5>MVP Praha, tř.mladých</h5>
-  </div>
-  <div class="appr">V1, CAJC, BOJ</div>
-  <div class="jdg">Marie Marušková</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>16.9.2017</div>
-    <h5>Klubová výstava Mladá Boleslav, tř.dorost</h5>
-  </div>
-  <div class="appr">VN 1, Nejlepší dorost výstavy</div>
-  <div class="jdg">Marie Marušková</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>15.5.2017</div>
-    <h5>Klubová výstava špiců Zbraslav u Brna, tř.štěňat</h5>
-  </div>
-  <div class="appr">VN 1</div>
-  <div class="jdg">Darko Korošec (Slovinsko)</div>
-</div>
-
-<div class="exh">
-  <div class="subtitle">
-    <div>13.5.2017</div>
-    <h5>Speciální výstava špiců Zbraslav u Brna, tř.štěňat</h5>
-  </div>
-  <div class="appr">VN 1</div>
-  <div class="jdg">Maja Korošec (Slovinsko)</div>
-</div>
-</div>
-
-<div class="show-more">
-  <a href="#gira" lang="cz">Zobrazit vše</a>
-</div>
-
-<script type="text/javascript">
-
-    window.addEventListener("load",function() {
+    },false);</script></div></article><article class="post"><header class="entry-header"><div class="icon" style="background:#FFB833;">orange</div><div class="icon" style="background:#ccc;left: 100px;" lang="cz">malá</div><h1 class="entry-title">Fantagira Fantasy Fox River</h1><a href="http://www.spic.cz/genealogie/index.php?pid=20759" target="_blank"><div class="pedigree"><span class="pedigree-label">Rodokmen</span></div></a><div class="entry-meta"><span class="posted-on" lang="cz">narozena 30. prosinec 2016</span></div></header><div class="entry-content"><div class="album405261046572930 fb-album-container"></div><div class="content hideContent" link="gira"><div class="exh highlight"><div class="subtitle"><div>10.11.2017</div><h5>World Dog Show Leipzig, tř.mladých</h5></div><div class="appr">ex.1, WORLD JUNIOR WINNER, BEST JUNIOR OF BREED, BOS</div><div class="jdg">Christine Rossier (CHE)</div></div><div class="exh"><div class="subtitle"><div>5.10.2017</div><h5>MVP Praha, tř.mladých</h5></div><div class="appr">V1, CAJC, BOJ</div><div class="jdg">R.Kotvaltová</div><div class="appr">3.místo JBIG v V.skupině</div><div class="jdg">Austin Long-Doyle Austin, Ireland</div></div><div class="exh"><div class="subtitle"><div>4.10.2017</div><h5>MVP Praha, tř.mladých</h5></div><div class="appr">V1, CAJC, BOJ</div><div class="jdg">Marie Marušková</div></div><div class="exh"><div class="subtitle"><div>16.9.2017</div><h5>Klubová výstava Mladá Boleslav, tř.dorost</h5></div><div class="appr">VN 1, Nejlepší dorost výstavy</div><div class="jdg">Marie Marušková</div></div><div class="exh"><div class="subtitle"><div>15.5.2017</div><h5>Klubová výstava špiců Zbraslav u Brna, tř.štěňat</h5></div><div class="appr">VN 1</div><div class="jdg">Darko Korošec (Slovinsko)</div></div><div class="exh"><div class="subtitle"><div>13.5.2017</div><h5>Speciální výstava špiců Zbraslav u Brna, tř.štěňat</h5></div><div class="appr">VN 1</div><div class="jdg">Maja Korošec (Slovinsko)</div></div></div><div class="show-more"><a href="#gira" lang="cz">Zobrazit vše</a></div><script type="text/javascript">window.addEventListener("load",function() {
       jQuery( document ).ready(function ($) {
         $(".album405261046572930").FacebookAlbumBrowser({
               account: "chsfoxriver",
@@ -336,29 +54,7 @@
               showMoreButton: false
           });
       });
-    },false);
-</script>
-
-					</div>
-				</article>
-                
-
-			</div>
-		</div>
-
-		<center class="">
-			<ul class="pagination">
-                
-
-			</ul>
-		</center>
-
-
-	</div>	
-
-
-  <script>
-    window.addEventListener("load",function() {
+    },false);</script></div></article></div></div><center class=""><ul class="pagination"></ul></center></div><script>window.addEventListener("load",function() {
     $(".show-more a").on("click", function() {
           var $this = $(this);
           var $content = $this.parent().prev("div.content");
@@ -381,64 +77,17 @@
 
           $this.text(linkText);
       });
-    },false);
-  </script>
-
-</main>
-
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p>Na všechny fotografie a články se vztahují autorská práva. Další šíření, kopírování, nebo jiné použití je možné jen se souhlasem autora.</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2017, Fox River<br>
-						Author: Ivo Bek -
-                        Powered by: gohugo
-                    </p>
-				</div>
-			</div>
-
-		</div> 
-	</div>
-</footer>
-
-
-
-
-<script>window.jQuery || document.write('<script src="http:\/\/foxriver.cz\/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="http://foxriver.cz/js/vendor/js.cookie.js" charset="utf-8" type="text/javascript"></script>
-<script src="http://foxriver.cz/js/vendor/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
-<script type="text/javascript">
-	var lang = new Lang();
+    },false);</script></main><footer id="footer"><div class="container"><div class="row"><div class="col-md-6 widget"><div class="widget-body"><p>Na všechny fotografie a články se vztahují autorská práva. Další šíření, kopírování, nebo jiné použití je možné jen se souhlasem autora.</p></div></div><div class="col-md-6 widget"><div class="widget-body"><p class="text-right">Copyright &copy; 2017, Fox River<br>Author: Ivo Bek - Powered by: gohugo</p></div></div></div></div></footer><script>window.jQuery || document.write('<script src="http:\/\/foxriver.cz\/js/vendor/jquery-1-1be6d8ca6a.11.2.min.js"><\/script>')</script><script src="http://foxriver.cz/js/vendor/js-4ca60f9861.cookie.js" charset="utf-8" type="text/javascript"></script><script src="http://foxriver.cz/js/vendor/jquery-lang-4173a6326f.js" charset="utf-8" type="text/javascript"></script><script type="text/javascript">var lang = new Lang();
 
   lang.dynamic('en', 'http:\/\/foxriver.cz\/js/en.json');
 
 	lang.init({
 		defaultLang: 'cz'
 	});
-  setFlag();
-</script>
-<script type="text/javascript" src="http://foxriver.cz/js/jquery.fb.albumbrowser.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="http://foxriver.cz/js/template.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  setFlag();</script><script type="text/javascript" src="http://foxriver.cz/js/jquery-2a93e6d41c.fb.albumbrowser.js"></script><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script><script src="http://foxriver.cz/js/template-90183afadb.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'GA-000000000-0', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</body>
-</html>
-
+  ga('send', 'pageview');</script></body></html>
