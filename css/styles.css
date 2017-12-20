@@ -1014,3 +1014,7 @@ article {
   border-radius: 1em 4em 1em 4em;
   padding-left: 30px;
 }
+
+h1 a:hover {
+  background-color: transparent;
+}
