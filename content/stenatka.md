@@ -51,8 +51,12 @@ Máte zájem o štěňátko?
 
 Můžete nás již nyní kontaktovat pro získání veškerých infomací o tomto vrhu telefonicky nebo emailem.
 
-* Tel. +420 737 538 898
-* Email: bekovajana@seznam.cz
+<div class="lightBg">
+<ul>
+  <li>Tel. +420 737 538 898</li>
+  <li>Email: bekovajana@seznam.cz</li>
+</ul>
+</div>
 
 Všechna naše štěňátka jsou odchovávána s maximálním množstvím péče a především s láskou. Vztah k lidem si vytvářejí již od prvních okamžiků svého narození, vždy se narodí za naší přítomnosti, vždy vyrůstají s námi, v naší bezprostřední blízkosti a vždy se snažíme o perfektní socializaci. Naprosto samozřejmě jsou štěňátka odčervována a očkována kvalitními preparáty, čipována a mají EU Pas, kupní smlouva a informace o chovu jsou samozřejmostí.
 

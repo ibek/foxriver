@@ -914,6 +914,8 @@ div.exh-container {
 .fb-album-container {
   text-align: center;
   background-color: var(--medium-color);
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .pedigree {
@@ -937,6 +939,8 @@ div.exh-container {
 
 .panel-heading {
   background-color: var(--light-color);
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .card-text {
@@ -1001,4 +1005,12 @@ article {
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.lightBg {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  -moz-border-radius: 1em 4em 1em 4em;
+  border-radius: 1em 4em 1em 4em;
+  padding-left: 30px;
 }

@@ -274,11 +274,18 @@ img.fb-comment-account {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     display: block;
-    color: #fff;
-    background: #91856C;
+    color: #5A4F39;
+    background: #BAB09C;
     padding: 12px;
     text-align: center;
     cursor: pointer;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.fb-btn-more:hover {
+    text-decoration: underline;
+    color: #91856C;
 }
 
 .fb-albums-more {
