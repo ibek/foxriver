@@ -901,6 +901,7 @@ div.exh-container {
   width: 200px;
   background-color: var(--dark-color);
   margin: 0 auto;
+  margin-top: 15px;
 }
 
 .show-more a {
