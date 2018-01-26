@@ -3,11 +3,12 @@ title = "Becki Fox River"
 type = "dog"
 color = "orange"
 colorCode = "#FFB833"
-born = "02. listopad 2009"
+born = "2. listopad 2009"
 size = "malá 28cm"
 occ = "nůžkový"
 teeth = "plnochrupá"
 PL = "MVDr. Ekr PL 0/0"
+note = "nyní v chovatelském důchodě"
 pedigree = "http://www.spic.cz/genealogie/index.php?pid=13363"
 +++
 

@@ -949,6 +949,12 @@ div.exh-container {
   font-size: 22px;
 }
 
+.card-text a {
+  text-decoration: underline;
+  font-weight: lighter;
+  margin: 20px;
+}
+
 .text-muted {
   color: var(--darker-color);
 }

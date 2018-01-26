@@ -23,6 +23,7 @@ var fbFeed = new FacebookPageFeed({
     var postBody = '';
     postBody = '{{text}}{{cover}}';
     if (post.attachments && post.attachments.data[0].media && post.attachments
+      .data[0].type == "photo" && post.attachments
       .data[0].media.image.src) {
       postBody = postBody.replace("{{cover}}",
         '<div class="text-center"><img src="' + post.attachments
@@ -41,7 +42,7 @@ var fbFeed = new FacebookPageFeed({
     var msg = post.message.replace(/\n/g, '<br/>');
     postBody = postBody.replace("{{text}}", '<p class="card-text">' +
       msg + '</p>');
-    console.log(msg);
+    console.log(post);
 
     var date = new Date(post.created_time);
 
