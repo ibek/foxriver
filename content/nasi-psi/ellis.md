@@ -15,6 +15,24 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=17396"
 
 <div class="content hideContent" link="ellis">
 
+<div class="exh">
+  <div class="subtitle">
+    <div>14.05.2017</div>
+    <h5>Klubová výstava Zbraslav, tř. vítězů</h5>
+  </div>
+  <div class="appr">V1, CAC</div>
+  <div class="jdg">Darko Korošec (Slovinsko)</div>
+</div>
+
+<div class="exh">
+  <div class="subtitle">
+    <div>13.05.2017</div>
+    <h5>Speciální výstava Zbraslav, tř. vítězů</h5>
+  </div>
+  <div class="appr">V1, CAC</div>
+  <div class="jdg">Maja Korošec (Slovinsko)</div>
+</div>
+
 <div class="champ">
 <img src="../images/champion.png"></img>
 <div class="achvm highlight" lang="cz">
