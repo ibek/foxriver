@@ -30,5 +30,11 @@ publishDir = "build"
     url = "/nasi-psi/"
     weight = 5
 
+[[menu.main]]
+    name = "Vzpomínáme"
+    identifier = "vzpominame"
+    url = "/vzpominame/"
+    weight = 6
+
 [params.google.analytics]
     trackerID = "UA-52295302-2"

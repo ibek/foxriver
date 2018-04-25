@@ -1,0 +1,71 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-sm-10 col-sm-offset-1">
+
+                {{ range .Paginator.Pages }}
+				<article class="post">
+					<header class="entry-header">
+
+            <div class="icon" style="background:{{ .Params.colorCode }};">{{ .Params.color }}</div>
+            <div class="icon" style="background:#ccc;left: 90px;" lang="cz">{{ .Params.size }}</div>
+            <div>
+						        <h1 class="entry-title name-plate">{{ .Title }}</h1>
+            </div>
+            <a href="{{ .Params.pedigree }}" target="_blank"><div class="pedigree"><span class="pedigree-label">Rodokmen</span></div></a>
+					  <div class="entry-meta">
+						  <span class="posted-on" lang="cz">{{ .Params.born }} - {{ .Params.died }}</span>
+              <div>{{ .Params.note }}</div>
+					  </div>
+					</header>
+					<div class="entry-content">
+						{{ .Content }}
+					</div>
+				</article>
+                {{ end }}
+
+			</div>
+		</div>
+
+		<center class="">
+			<ul class="pagination">
+                {{ template "_internal/pagination.html" . }}
+			</ul>
+		</center>
+
+
+	</div>	<!-- /container -->
+
+  <script>
+    window.addEventListener("load",function() {
+    $(".show-more a").on("click", function() {
+          var $this = $(this);
+          var $content = $this.parent().prev("div.content");
+          console.log($content);
+          var linkText = $this.text().toUpperCase();
+
+          if(linkText === "ZOBRAZIT VŠE"){
+              linkText = "Schovat";
+              $content.addClass('showContent').removeClass('hideContent');
+          } else if (linkText === "SCHOVAT") {
+              linkText = "Zobrazit vše";
+              $content.addClass('hideContent').removeClass('showContent');
+          } else if (linkText === "SHOW ALL") {
+              linkText = "Hide";
+              $content.addClass('showContent').removeClass('hideContent');
+          } else if (linkText === "HIDE") {
+              linkText = "Show All";
+              $content.addClass('hideContent').removeClass('showContent');
+          };
+
+          $this.text(linkText);
+      });
+    },false);
+  </script>
+
+</main>
+
+{{ partial "footer.html" . }}
