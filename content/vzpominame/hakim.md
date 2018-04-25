@@ -7,7 +7,7 @@ born = "16. červen 2001"
 died = "24. duben 2015"
 size = "malý 27cm"
 occ = "nůžkový"
-pedigree = "http://www.spic.cz/genealogie/index.php?pid=9281"
+pedigree = "http://www.spic.cz/genealogie/index.php?pid=5658"
 weight = 99
 +++
 
