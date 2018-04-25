@@ -82,13 +82,13 @@
     privateObj.formatResponse = {};
     privateObj.formatResponse.json = function(data, config) {
       var res = {};
-      res.page = {
-        name: data.name,
-        likes: config.dateFormat(data.fan_count),
-        link: data.link,
-        avatar: data.picture.data.url
-      };
-      res.posts = data.posts.data;
+      if (data.data) {
+        res.posts = data.data;
+        res.posts.paging = data.paging;
+      } else {
+        console.log("No posts");
+        console.log(data);
+      }
       return res;
     };
 
@@ -96,10 +96,12 @@
       data = privateObj.formatResponse.json(data, config);
       var html = '';
       for (var i in data.posts) {
-        data.posts[i].message = privateObj.urlify(data.posts[i].message);
-        data.posts[i].likes = config.likesFormat((data.posts[i].likes) ?
-          data.posts[i].likes.summary.total_count : 0);
-        html += config.template(data.page, data.posts[i]);
+        if (data.posts[i].created_time) {
+          data.posts[i].message = privateObj.urlify(data.posts[i].message);
+          data.posts[i].likes = config.likesFormat((data.posts[i].likes) ?
+            data.posts[i].likes.summary.total_count : 0);
+          html += config.template(data.page, data.posts[i]);
+        }
       }
       return html;
     };
@@ -107,12 +109,11 @@
 
 
     privateObj.callFB = function(newConfig) {
-      FB.api("/" + newConfig.pagename, {
+      FB.api("/" + newConfig.pagename + "/posts", {
           access_token: newConfig.token,
           summary: true,
-          fields: "picture{url},name,cover,fan_count,link,posts.limit(" +
-            newConfig.feedlimit +
-            "){attachments, likes.limit(0).summary(true), message, created_time, link}"
+          fields: "created_time,message,attachments",
+          limit: newConfig.feedlimit
         },
         function(response) {
           if (!response.error) {
@@ -129,7 +130,7 @@
       FB.init({
         appId: obj.config.appid,
         xfbml: true,
-        version: 'v2.6'
+        version: 'v2.11'
       });
       privateObj.fbIsInit = true;
       for (var i in privateObj.queue) {

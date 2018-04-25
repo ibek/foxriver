@@ -42,7 +42,6 @@ var fbFeed = new FacebookPageFeed({
     var msg = post.message.replace(/\n/g, '<br/>');
     postBody = postBody.replace("{{text}}", '<p class="card-text">' +
       msg + '</p>');
-    console.log(post);
 
     var date = new Date(post.created_time);
 
@@ -75,17 +74,8 @@ var fbFeed = new FacebookPageFeed({
     return tpl;
   },
   onLoad: function(res, format, data) {
-    if (data && data.cover) {
-      $('.jumbotron').css({
-        'background-image': 'url(\'' + data.cover.source + '\')'
-      });
-    } else {
-      $('.jumbotron').css({
-        'background-image': ''
-      });
-    }
     var prevNext = '<div class="posts-footer">';
-    if (data.posts.paging.next) {
+    if (data.paging && data.paging.next) {
       prevNext +=
         '<div id="oldPosts"><a id="oldPostsLink" href="#" lang="cz">Starší</a></div>';
       var scope = this;
@@ -93,13 +83,13 @@ var fbFeed = new FacebookPageFeed({
       $(document).off('click', '#oldPostsLink');
       $(document).on('click', '#oldPostsLink', function() {
         scope.pageScreen += 1;
-        $.getJSON(scope.data.posts.paging.next, function(response) {
+        $.getJSON(scope.data.paging.next, function(response) {
           var r2 = {};
           if (response.data && response.data.length > 0) {
             r2.posts = response.data;
             r2.posts.paging = response.paging;
             scope.onLoad(scope.formatResponse(r2, scope),
-              scope.format, r2);
+              scope.format, r2.posts);
           } else {
             scope.pageScreenMax = scope.pageScreen - 1;
             scope.pageScreen -= 1;
@@ -108,7 +98,7 @@ var fbFeed = new FacebookPageFeed({
         }.bind(this));
       }.bind(this));
     }
-    if (data.posts.paging.previous) {
+    if (data.paging && data.paging.previous) {
       prevNext +=
         '<div id="newPosts"><a id="newPostsLink" href="#" lang="cz">Nové</a></div>';
       var scope = this;
@@ -116,14 +106,14 @@ var fbFeed = new FacebookPageFeed({
       $(document).off('click', '#newPostsLink');
       $(document).on('click', '#newPostsLink', function() {
         scope.pageScreen -= 1;
-        $.getJSON(scope.data.posts.paging.previous, function(
+        $.getJSON(scope.data.paging.previous, function(
           response) {
           var r2 = {};
           if (response.data && response.data.length > 0) {
             r2.posts = response.data;
             r2.posts.paging = response.paging;
             scope.onLoad(scope.formatResponse(r2, scope),
-              scope.format, r2);
+              scope.format, r2.posts);
           }
         }.bind(this));
       }.bind(this));
@@ -135,7 +125,7 @@ var fbFeed = new FacebookPageFeed({
   formatResponse: function(data, config) {
     var html = '';
     for (var i in data.posts) {
-      if (data.posts[i].message) {
+      if (data.posts[i].created_time) {
         data.posts[i].message = this.urlify(data.posts[i].message);
         data.posts[i].likes = config.likesFormat((data.posts[i].likes) ?
           data.posts[i].likes.summary.total_count : 0);
