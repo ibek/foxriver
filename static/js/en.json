@@ -17,6 +17,7 @@
     "prosinec": "December",
     "Štěňátka": "Puppies",
     "O plemeni": "Breed description",
+    "Vzpomínáme": "Past Greats",
     "Naši psi": "Our Dogs",
     "Kontakt": "Contact",
     "Adresa:": "Address:",
@@ -29,10 +30,23 @@
     "puppies-introduction-g": "In the name-day of son Lukas, 18.10.2017, our female dog Ellis Esma Fox River gave birth to 4 girls and 1 boy. The father of the puppies is a charming CH. Jack Sandiré.",
     "Další fotky...": "More Photos",
     "Další alba...": "More Albums",
-    "Vrh": "Litter"
+    "Vrh": "Litter",
+    "Rodokmen": "Pedigree"
   },
   "regex": [
-    ["narozen[a]?(.*)", "i", "born $1"],
+    ["narozen[a]", "i", "born"],
+    ["(.*)leden(.*)", "i", "$1January$2"],
+    ["(.*)únor(.*)", "i", "$1February$2"],
+    ["(.*)březen(.*)", "i", "$1March$2"],
+    ["(.*)duben(.*)", "i", "$1April$2"],
+    ["(.*)květen(.*)", "i", "$1May$2"],
+    ["(.*)červen(.*)", "i", "$1June$2"],
+    ["(.*)červenec(.*)", "i", "$1July$2"],
+    ["(.*)srpen(.*)", "i", "$1August$2"],
+    ["(.*)září(.*)", "i", "$1September$2"],
+    ["(.*)říjen(.*)", "i", "$1October$2"],
+    ["(.*)listopad(.*)", "i", "$1November$2"],
+    ["(.*)prosinec(.*)", "i", "$1December$2"],
     ["mal[ýá]?(.*)", "i", "small $1"]
   ]
 }

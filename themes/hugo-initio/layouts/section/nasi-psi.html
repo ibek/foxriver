@@ -15,9 +15,9 @@
             <div>
 						        <h1 class="entry-title name-plate">{{ .Title }}</h1>
             </div>
-            <a href="{{ .Params.pedigree }}" target="_blank"><div class="pedigree"><span class="pedigree-label">Rodokmen</span></div></a>
+            <a href="{{ .Params.pedigree }}" target="_blank"><div class="pedigree"><span class="pedigree-label" lang="cz">Rodokmen</span></div></a>
 					  <div class="entry-meta">
-						  <span class="posted-on" lang="cz">narozena {{ .Params.born }}</span>
+						  <span class="posted-on" lang="cz">narozena <span lang="cz">{{ .Params.born }}</span></span>
               <div>{{ .Params.note }}</div>
 					  </div>
 					</header>
