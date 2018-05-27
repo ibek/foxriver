@@ -22,7 +22,7 @@ year = 2016
 <a href="http://www.spic.cz/genealogie/index.php?pid=20759" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Jana Beková (Broumov)
+Broumov
 </div>
 
 <div style="position:relative;">
@@ -32,7 +32,7 @@ majitelka: Jana Beková (Broumov)
 <a href="http://www.spic.cz/genealogie/index.php?pid=20760" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Hana Ansorgová (Červený Kostelec)
+Červený Kostelec
 </div>
 
 <div style="position:relative;">
@@ -42,7 +42,7 @@ majitelka: Hana Ansorgová (Červený Kostelec)
 <a href="http://www.spic.cz/genealogie/index.php?pid=22188" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Zdeněk Borecký (Praha)
+Praha
 </div>
 
 <div style="position:relative;">
@@ -52,7 +52,7 @@ majitelka: Zdeněk Borecký (Praha)
 <a href="http://www.spic.cz/genealogie/index.php?pid=20758" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Jana Beková (Broumov)
+Broumov
 </div>
 
 <div>

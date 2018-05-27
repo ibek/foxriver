@@ -23,7 +23,7 @@ Otec štěňátek je krásný Ch.Jack Sandiré.
 <a href="http://www.spic.cz/genealogie/index.php?pid=21893" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Viktorie Tmejová ( Čistá u Horek)
+Čistá u Horek
 </div>
 
 <div style="position:relative;">
@@ -33,7 +33,7 @@ majitelka: Viktorie Tmejová ( Čistá u Horek)
 <a href="http://www.spic.cz/genealogie/index.php?pid=21894" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Jitka Fecková ( Staré Hradiště)
+Staré Hradiště
 </div>
 
 <div style="position:relative;">
@@ -43,7 +43,7 @@ majitelka: Jitka Fecková ( Staré Hradiště)
 <a href="http://www.spic.cz/genealogie/index.php?pid=21895" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Ing.Novotná Dana ( Nebužely)
+Nebužely
 </div>
 
 <div style="position:relative;">
@@ -53,7 +53,7 @@ majitelka: Ing.Novotná Dana ( Nebužely)
 <a href="http://www.spic.cz/genealogie/index.php?pid=21896" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Anna Zezulová (Petrov)
+Petrov
 </div>
 
 <div style="position:relative;">
@@ -63,7 +63,7 @@ majitelka: Anna Zezulová (Petrov)
 <a href="http://www.spic.cz/genealogie/index.php?pid=21892" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Marta Pilinová ( Krásná Hora nad Vltavou)
+Krásná Hora nad Vltavou
 </div>
 
 <div>

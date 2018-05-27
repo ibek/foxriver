@@ -22,7 +22,7 @@ year = 2014
 <a href="http://www.spic.cz/genealogie/index.php?pid=17274" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Yvona Lašáková (Rýmařov)
+Rýmařov
 </div>
 
 <div style="position:relative;">
@@ -32,7 +32,7 @@ majitelka: Yvona Lašáková (Rýmařov)
 <a href="http://www.spic.cz/genealogie/index.php?pid=17395" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitel: Milan Tuček (Nový Bydžov)
+Nový Bydžov
 </div>
 
 <div style="position:relative;">
@@ -42,7 +42,7 @@ majitel: Milan Tuček (Nový Bydžov)
 <a href="http://www.spic.cz/genealogie/index.php?pid=17397" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitel: Filip Blažek (Olomouc)
+Olomouc
 </div>
 
 <div style="position:relative;">
@@ -52,7 +52,7 @@ majitel: Filip Blažek (Olomouc)
 <a href="http://www.spic.cz/genealogie/index.php?pid=17396" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div style="margin: 30px;">
-majitelka: Jana Beková (Broumov)
+Broumov
 </div>
 
 <div>
