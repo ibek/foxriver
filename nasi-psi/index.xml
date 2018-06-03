@@ -17,7 +17,7 @@
       
       <guid>http://foxriver.cz/nasi-psi/becki/</guid>
       <description> 10.10.2010 Rostock, Internationale  V1, Anw.Dt.Jug.Ch.VDH   
-window.addEventListener(&#34;load&#34;,function() { jQuery( document ).ready(function ($) { $(&#34;.album415540572211644&#34;).FacebookAlbumBrowser({ account: &#34;chsfoxriver&#34;, accessToken: &#34;775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4&#34;, onlyAlbum: &#34;415540572211644&#34;, showComments: false, commentsLimit:3, showAccountInfo: false, showAlbumNameInPreview: false, showImageCount: false, showImageText: true, shareButton: false, albumsPageSize: 10, photosPageSize: 4, lightbox: true, photosCheckbox: false, pluginImagesPath: &#34;../images/&#34;, likeButton: false, shareButton: false, showMoreButton: false }); }); },false);  </description>
+window.addEventListener(&#34;load&#34;,function() { jQuery( document ).ready(function ($) { $(&#34;.album415540572211644&#34;).FacebookAlbumBrowser({ account: &#34;chsfoxriver&#34;, onlyAlbum: &#34;415540572211644&#34;, showComments: false, commentsLimit:3, showAccountInfo: false, showAlbumNameInPreview: false, showImageCount: false, showImageText: true, shareButton: false, albumsPageSize: 10, photosPageSize: 4, lightbox: true, photosCheckbox: false, pluginImagesPath: &#34;../images/&#34;, likeButton: false, shareButton: false, showMoreButton: false }); }); },false);  </description>
     </item>
     
     <item>
