@@ -30,7 +30,6 @@ weight = 99
       jQuery( document ).ready(function ($) {
         $(".album465853847180316").FacebookAlbumBrowser({
               account: "chsfoxriver",
-              accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
               onlyAlbum: "465853847180316",
               showComments: false,
               commentsLimit:3,

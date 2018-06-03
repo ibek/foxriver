@@ -13,7 +13,7 @@
   $.fn.FacebookAlbumBrowser = function(options) {
     var defaults = {
       account: "",
-      accessToken: "",
+      accessToken2: "EAAMRONZBWoUwBAOS7U8XeNtJvYj6SN78wU9ijZC6d0bJMwAZCoZBw253ibIOww7xU6rcVNXLMbfLw9FgldBDMUHDuOWg9Yzm4fflVvqttxpoBMGy1b44oscOiZB80u5s4sBxUJs7s1qeqalboitr9c0av4CzygR5g5B6HBnv2tQZDZD",
       showAccountInfo: true,
       showImageCount: true,
       skipEmptyAlbums: true,
@@ -65,16 +65,12 @@
             "px !important"
         }));
         invokeUrl = openGraphApiUrl + settings.account + "/albums";
-        if (settings.accessToken != "") {
-          invokeUrl += "?access_token=" + settings.accessToken +
-            albumFields;
-        }
+        invokeUrl += "?access_token=" + settings.accessToken2 +
+          albumFields;
       } else {
         invokeUrl = openGraphApiUrl + settings.onlyAlbum + "/photos";
-        if (settings.accessToken != "") {
-          invokeUrl += "?access_token=" + settings.accessToken +
-            photoFields;
-        }
+        invokeUrl += "?access_token=" + settings.accessToken2 +
+          photoFields;
       }
       var albumList = $(container).find(".fb-albums");
 
@@ -268,10 +264,8 @@
 
                     var invokeUrl = openGraphApiUrl + $(self)
                       .attr("data-id") + "/photos";
-                    if (settings.accessToken != "") {
-                      invokeUrl += "?access_token=" +
-                        settings.accessToken + photoFields;
-                    }
+                    invokeUrl += "?access_token=" +
+                      settings.accessToken2 + photoFields;
 
                     if (settings.albumSelected != null &&
                       typeof(settings.albumSelected) ==
@@ -392,12 +386,15 @@
           }
         }
 
+        console.log(url);
+
         $.ajax({
           type: 'GET',
           url: url,
           cache: false,
           dataType: 'jsonp',
           success: function(result) {
+            console.log(result);
             if (result.data.length > 0) {
 
               if (settings.showComments) {
@@ -562,7 +559,7 @@
 
       function loadComments(objectId, container, nextUrl) {
         var url = openGraphApiUrl + objectId +
-          "/comments?access_token=" + settings.accessToken + "&limit=" +
+          "/comments?access_token=" + settings.accessToken2 + "&limit=" +
           settings.commentsLimit;
         if (nextUrl != null) {
           url = nextUrl;
@@ -703,9 +700,7 @@
         }));
         $(container).append(accountInfoContainer);
         var invokeUrl = openGraphApiUrl + settings.account;
-        if (settings.accessToken != "") {
-          invokeUrl += "?access_token=" + settings.accessToken;
-        }
+        invokeUrl += "?access_token=" + settings.accessToken2;
 
         $.ajax({
           type: 'GET',

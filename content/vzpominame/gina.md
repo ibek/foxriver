@@ -81,7 +81,6 @@ Je nám útěchou, že budeš dál žít v Tvých štěňatech. V srdci Tě bude
       jQuery( document ).ready(function ($) {
         $(".album465848173847550").FacebookAlbumBrowser({
               account: "chsfoxriver",
-              accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
               onlyAlbum: "465848173847550",
               showComments: false,
               commentsLimit:3,

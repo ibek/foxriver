@@ -11,8 +11,8 @@ var elResult = $('#result'),
   }
 
 var fbFeed = new FacebookPageFeed({
-  appid: '426407340854185',
-  token: '426407340854185|1VWJq1dpLbDNBN-VCoKsekzl0g8',
+  appid: '863360897163596',
+  token: 'EAAMRONZBWoUwBAB9L1KRZB6NXwsFrhUeVpYWftQC0ZARmZCsTtEiY7pANJs0lpqDCk3nNeUMPa2qOHmC6MdKMKsufY7xmQ1O8xZBhwsYPHZA3jxGZA2GymQf1ShatBAGAjQSJ5NpUkrzipWVwuPHMxKQBYOMAUVUKCjKqAHApaxzwZDZD',
   pagename: 'chsfoxriver',
   format: 'html',
   pageScreen: 0,
@@ -75,7 +75,7 @@ var fbFeed = new FacebookPageFeed({
   },
   onLoad: function(res, format, data) {
     var prevNext = '<div class="posts-footer">';
-    if (data.paging && data.paging.next) {
+    if (data && data.paging && data.paging.next) {
       prevNext +=
         '<div id="oldPosts"><a id="oldPostsLink" href="#" lang="cz">Starší</a></div>';
       var scope = this;
@@ -98,7 +98,7 @@ var fbFeed = new FacebookPageFeed({
         }.bind(this));
       }.bind(this));
     }
-    if (data.paging && data.paging.previous) {
+    if (data && data.paging && data.paging.previous) {
       prevNext +=
         '<div id="newPosts"><a id="newPostsLink" href="#" lang="cz">Nové</a></div>';
       var scope = this;

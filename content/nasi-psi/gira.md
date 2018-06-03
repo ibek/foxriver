@@ -83,7 +83,6 @@ pedigree = "http://www.spic.cz/genealogie/index.php?pid=20759"
       jQuery( document ).ready(function ($) {
         $(".album405261046572930").FacebookAlbumBrowser({
               account: "chsfoxriver",
-              accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
               onlyAlbum: "405261046572930",
               showComments: false,
               commentsLimit:3,
