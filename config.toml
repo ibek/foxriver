@@ -1,4 +1,4 @@
-baseURL = "http://foxriver.cz/"
+baseURL = "https://foxriver.cz/"
 languageCode = "cs-cz"
 title = "Fox River | Chovatelská stanice"
 theme = "hugo-initio"
