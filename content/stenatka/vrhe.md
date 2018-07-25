@@ -11,7 +11,7 @@ year = 2014
 
 ![Vrh E](/images/vrhe.jpg)
 
-<p lang="cz" data-lang-token="puppies-introduction-g">
+<p lang="cz" data-lang-token="puppies-introduction-e">
 03.08.2014 se nám narodila 4 štěňátka. Máme 2 holčičky a 2 kluky.
 </p>
 
@@ -21,7 +21,7 @@ year = 2014
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=17274" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Rýmařov
 </div>
 
@@ -31,7 +31,7 @@ Rýmařov
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=17395" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Nový Bydžov
 </div>
 
@@ -41,7 +41,7 @@ Nový Bydžov
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=17397" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Olomouc
 </div>
 
@@ -51,7 +51,7 @@ Olomouc
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=17396" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Broumov
 </div>
 

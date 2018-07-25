@@ -22,7 +22,7 @@ Otec štěňátek je krásný Ch.Jack Sandiré.
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=21893" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Čistá u Horek
 </div>
 
@@ -32,7 +32,7 @@ Otec štěňátek je krásný Ch.Jack Sandiré.
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=21894" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Staré Hradiště
 </div>
 
@@ -42,7 +42,7 @@ Staré Hradiště
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=21895" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Nebužely
 </div>
 
@@ -52,7 +52,7 @@ Nebužely
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=21896" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Petrov
 </div>
 
@@ -62,7 +62,7 @@ Petrov
 </div>
 <a href="http://www.spic.cz/genealogie/index.php?pid=21892" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
-<div style="margin: 30px;">
+<div class="location">
 Krásná Hora nad Vltavou
 </div>
 

@@ -1,25 +1,35 @@
 +++
-title = "Štěňátka - Vrh F"
+title = "Štěňátka - Vrh B"
 type = "stenatka"
 weight = "5"
-letter = "F"
-year = 2016
+letter = "B"
+year = 2009
 +++
 
 
-<h2><span lang="cz">Vrh</span> F</h2>
+<h2><span lang="cz">Vrh</span> B</h2>
 
-![Vrh F](/images/vrhf.jpg)
+![Vrh G](/images/vrhb.jpg)
 
-<p lang="cz" data-lang-token="puppies-introduction-f">
-30.12.2016 ráno se nám narodila 4 štěňátka. Máme 2 holčičky a 2 kluky.
+<p lang="cz" data-lang-token="puppies-introduction-c">
+02.11.2009 se nám narodila 4 štěňátka. 3 kluci a 1 holčička.
 </p>
 
 <div style="position:relative;">
 <div>
-<h1 class="entry-title name-plate">Fantagira Fantasy</h1>
+<h1 class="entry-title name-plate">Barbánek</h1>
 </div>
-<a href="http://www.spic.cz/genealogie/index.php?pid=20759" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
+<a href="http://www.spic.cz/genealogie/index.php?pid=13361" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
+</div>
+<div class="location">
+Jaroměř
+</div>
+
+<div style="position:relative;">
+<div>
+<h1 class="entry-title name-plate">Becki</h1>
+</div>
+<a href="http://www.spic.cz/genealogie/index.php?pid=13363" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div class="location">
 Broumov
@@ -27,35 +37,23 @@ Broumov
 
 <div style="position:relative;">
 <div>
-<h1 class="entry-title name-plate">Francesca Fancy</h1>
+<h1 class="entry-title name-plate">Belmondo</h1>
 </div>
-<a href="http://www.spic.cz/genealogie/index.php?pid=20760" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
+<a href="http://www.spic.cz/genealogie/index.php?pid=13337" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div class="location">
-Červený Kostelec
+Jaroměř
 </div>
 
 <div style="position:relative;">
 <div>
-<h1 class="entry-title name-plate">Falco Folk</h1>
+<h1 class="entry-title name-plate">Borísek</h1>
 </div>
-<a href="http://www.spic.cz/genealogie/index.php?pid=22188" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
-</div>
-<div class="location">
-Praha
-</div>
-
-<div style="position:relative;">
-<div>
-<h1 class="entry-title name-plate">Felix Frost</h1>
-</div>
-<a href="http://www.spic.cz/genealogie/index.php?pid=20758" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
+<a href="http://www.spic.cz/genealogie/index.php?pid=13362" target="_blank"><div class="pedigree" style="left:0px;"><span class="pedigree-label">Rodokmen</span></div></a>
 </div>
 <div class="location">
-Broumov
+Chvalkovice – Miskolezi
 </div>
-
-<div>
 
 <div class="fb-album-container"></div>
 
@@ -66,7 +64,7 @@ Broumov
         $(".fb-album-container").FacebookAlbumBrowser({
               account: "natgeo",
               accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
-              onlyAlbum: "434581773640857",
+              onlyAlbum: "526748911090809",
               showComments: false,
               commentsLimit:3,
               showAccountInfo: false,
