@@ -11,13 +11,13 @@
 					<header class="entry-header">
 
             <div class="icon" style="background:{{ .Params.colorCode }};">{{ .Params.color }}</div>
-            <div class="icon" style="background:#ccc;left: 90px;" lang="cz">{{ .Params.size }}</div>
+            <div class="icon" style="background:#ccc;top: 80px;" lang="cz">{{ .Params.size }}</div>
             <div>
 						        <h1 class="entry-title name-plate">{{ .Title }}</h1>
             </div>
             <a href="{{ .Params.pedigree }}" target="_blank"><div class="pedigree"><span class="pedigree-label" lang="cz">Rodokmen</span></div></a>
 					  <div class="entry-meta">
-						  <span class="posted-on"><span lang="cz">{{ .Params.born }}</span> - <span lang="cz">{{ .Params.died }}</span></span>
+						  <span class="posted-on"><div lang="cz">{{ .Params.born }}</div><div lang="cz">{{ .Params.died }}</div></span>
               <div>{{ .Params.note }}</div>
 					  </div>
 					</header>

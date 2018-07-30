@@ -9,7 +9,7 @@
 		  <!-- Sidebar -->
 			<aside class="col-sm-4 sidebar sidebar-right">
 
-				<div class="nav text-right nav-side" style="float: right;">
+				<div class="nav text-right nav-side" style="float: right;margin-left: 10px;">
           {{ range (where .Data.Pages "Section" "stenatka").Reverse }}
           <a href="{{ .Permalink }}"><div class="vrh">{{ .Params.letter }} <span class="vrhSmaller">{{ .Params.year }}</span></div></a>
           {{ end }}
