@@ -1,92 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://foxriver.cz/o-plemeni/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrha/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrhb/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrhc/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrhd/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrhe/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrhf/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrhg/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/stenatka/vrhh/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/vzpominame/hakim/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/vzpominame/gina/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/kontakt/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/nasi-psi/becki/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/nasi-psi/ellis/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/nasi-psi/gira/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/nasi-psi/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://foxriver.cz/vzpominame/</loc>
   </url>
-  
 </urlset>

@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fox River | Chovatelská stanice</title>
     <link>https://foxriver.cz/</link>
     <description>Recent content on Fox River | Chovatelská stanice</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>cs-cz</language>
-    
-	<atom:link href="https://foxriver.cz/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>cs-cz</language><atom:link href="https://foxriver.cz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O plemeni</title>
       <link>https://foxriver.cz/o-plemeni/</link>
@@ -44,7 +40,7 @@ Tito psi byli nazvání psy rašelinnými. Vyobrazení špiců na různých hlin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://foxriver.cz/stenatka/vrhc/</guid>
-      <description>Vrh C 25.10.2012 se nám narodila 1 holčička.  Carey Carmen  Rodokmen  Česká Lípa   window.onload = function() { jQuery( document ).ready(function ($) { $(&#34;.fb-album-container&#34;).FacebookAlbumBrowser({ account: &#34;natgeo&#34;, accessToken: &#34;775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4&#34;, onlyAlbum: &#34;526743121091388&#34;, showComments: false, commentsLimit:3, showAccountInfo: false, showAlbumNameInPreview: false, showImageCount: false, showImageText: true, shareButton: false, albumsPageSize: 100, photosPageSize: 9, lightbox: true, photosCheckbox: false, pluginImagesPath: &#34;../images/&#34;, likeButton: false, shareButton: false, showMoreButton: true }); }); }</description>
+      <description>Vrh C 25.10.2012 se nám narodila 1 holčička.  Carey Carmen  Rodokmen  Česká Lípa   window.onload = function() { jQuery( document ).ready(function ($) { $(&#34;.fb-album-container&#34;).FacebookAlbumBrowser({ account: &#34;natgeo&#34;, accessToken: &#34;775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4&#34;, onlyAlbum: &#34;526743121091388&#34;, showComments: false, commentsLimit:3, showAccountInfo: false, showAlbumNameInPreview: false, showImageCount: false, showImageText: true, shareButton: false, albumsPageSize: 100, photosPageSize: 9, lightbox: true, photosCheckbox: false, pluginImagesPath: &#34;../images/&#34;, likeButton: false, shareButton: false, showMoreButton: true }); }); }   </description>
     </item>
     
     <item>
@@ -125,8 +121,7 @@ Tito psi byli nazvání psy rašelinnými. Vyobrazení špiců na různých hlin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://foxriver.cz/nasi-psi/becki/</guid>
-      <description> 10.10.2010 Rostock, Internationale  V1, Anw.Dt.Jug.Ch.VDH   
-window.addEventListener(&#34;load&#34;,function() { jQuery( document ).ready(function ($) { $(&#34;.album415540572211644&#34;).FacebookAlbumBrowser({ account: &#34;chsfoxriver&#34;, onlyAlbum: &#34;415540572211644&#34;, showComments: false, commentsLimit:3, showAccountInfo: false, showAlbumNameInPreview: false, showImageCount: false, showImageText: true, shareButton: false, albumsPageSize: 10, photosPageSize: 4, lightbox: true, photosCheckbox: false, pluginImagesPath: &#34;../images/&#34;, likeButton: false, shareButton: false, showMoreButton: false }); }); },false);  </description>
+      <description> 10.10.2010 Rostock, Internationale  V1, Anw.Dt.Jug.Ch.VDH    window.addEventListener(&#34;load&#34;,function() { jQuery( document ).ready(function ($) { $(&#34;.album415540572211644&#34;).FacebookAlbumBrowser({ account: &#34;chsfoxriver&#34;, onlyAlbum: &#34;415540572211644&#34;, showComments: false, commentsLimit:3, showAccountInfo: false, showAlbumNameInPreview: false, showImageCount: false, showImageText: true, shareButton: false, albumsPageSize: 10, photosPageSize: 4, lightbox: true, photosCheckbox: false, pluginImagesPath: &#34;../images/&#34;, likeButton: false, shareButton: false, showMoreButton: false }); }); },false);  </description>
     </item>
     
     <item>
