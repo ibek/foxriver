@@ -12,7 +12,7 @@ var elResult = $('#result'),
 
 var fbFeed = new FacebookPageFeed({
   appid: '863360897163596',
-  token: 'EAAMRONZBWoUwBAJlhWCQyexSSZBs49uShig8b6EjhbhyPck6AnDNnMrZCbQcBSU4SusYidxUia2ZBdWoSQZCwdShJu5xJlzBB15D84vS5ZBqGVm1QJ66LoWrP52yWfBQT7AelxLYLKLEvHiOHOluPjxCkizDqdKNnm4i4V5piZAthtiIZCSNl5kNUXM2UL1wO1eiPZCqhTLFHBQZDZD',
+  token: 'EAAMRONZBWoUwBAIY7njWxeQvv7ZCLu4bm2paZAuI5h8mnpYP1FXvWj6WxW3ldajov7vN7woxYsA3ZAfyYSFKabPxEFwtz4KrWPiP8poSYZBTLDQ0ZBrQpQlAas6fV3qS8adM4wr0XZCdLZAv180dHsHZCYqU6E5VkLdIEZBGTNztGl2XsVDp8rySB3LTaPr5lZBWWZCZAlfX5FLZAZCPgZDZD',
   pagename: 'chsfoxriver',
   format: 'html',
   pageScreen: 0,
