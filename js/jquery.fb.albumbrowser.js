@@ -13,7 +13,7 @@
   $.fn.FacebookAlbumBrowser = function(options) {
     var defaults = {
       account: "",
-      accessToken2: "EAAMRONZBWoUwBAB1y6ZC5mvvEbESNYQsEz2lCM7LWhkfE2XL0ITu0hhuh7ICCaq9HuZCWzisieaZBlyoO0cxZANXE3ZC1JtbBRtXqicLlZAzpdOlUD88kPo9ZBsXIb3wyH5oR4ZAqyDeblqTevUsm3I504z81FZCMFSOqZCfxk2g2fVvj8pVfVWUBG27igExAP13k0ZD",
+      accessToken2: "EAAMRONZBWoUwBAOS7U8XeNtJvYj6SN78wU9ijZC6d0bJMwAZCoZBw253ibIOww7xU6rcVNXLMbfLw9FgldBDMUHDuOWg9Yzm4fflVvqttxpoBMGy1b44oscOiZB80u5s4sBxUJs7s1qeqalboitr9c0av4CzygR5g5B6HBnv2tQZDZD",
       showAccountInfo: true,
       showImageCount: true,
       skipEmptyAlbums: true,

@@ -12,7 +12,7 @@ var elResult = $('#result'),
 
 var fbFeed = new FacebookPageFeed({
   appid: '863360897163596',
-  token: 'EAAMRONZBWoUwBAB1y6ZC5mvvEbESNYQsEz2lCM7LWhkfE2XL0ITu0hhuh7ICCaq9HuZCWzisieaZBlyoO0cxZANXE3ZC1JtbBRtXqicLlZAzpdOlUD88kPo9ZBsXIb3wyH5oR4ZAqyDeblqTevUsm3I504z81FZCMFSOqZCfxk2g2fVvj8pVfVWUBG27igExAP13k0ZD',
+  token: 'EAAMRONZBWoUwBAB9L1KRZB6NXwsFrhUeVpYWftQC0ZARmZCsTtEiY7pANJs0lpqDCk3nNeUMPa2qOHmC6MdKMKsufY7xmQ1O8xZBhwsYPHZA3jxGZA2GymQf1ShatBAGAjQSJ5NpUkrzipWVwuPHMxKQBYOMAUVUKCjKqAHApaxzwZDZD',
   pagename: 'chsfoxriver',
   format: 'html',
   pageScreen: 0,
@@ -119,7 +119,6 @@ var fbFeed = new FacebookPageFeed({
       }.bind(this));
     }
     setTimeout(this.updatePageScreen.bind(this), 100);
-    console.log(res);
     elResult.html('<div class="card-columns">' + res + '</div>' +
       prevNext + '</div>');
   },
